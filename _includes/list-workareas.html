@@ -1,0 +1,7 @@
+<span class="workarealist">
+    {% for workarea in site.workareas %}
+        {% if include.workareas contains workarea.workarea_id %}
+            <a href="{{workarea.url}}">{{ workarea.title }}</a><span class="sep">, </span><span class="sep-last">. </span>
+        {% endif %}
+    {% endfor %}
+</span>

@@ -1,0 +1,7 @@
+<span class="eventlist">
+    {% for event in site.events %}
+        {% if include.events contains event.event_id %}
+            <a href="{{event.url}}">{{ event.title }}</a><span class="sep">, </span><span class="sep-last">. </span>
+        {% endif %}
+    {% endfor %}
+</span>

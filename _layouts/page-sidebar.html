@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="container">
+    {% if page.image %} 
+        <img class="card-img-top mb-5" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+    {% endif %} 
+    <div class="row">
+        <div class="col-md-8">
+            <h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+            <div class="page-content mb-5">
+                {{ content }}
+            </div>
+
+            {% include newsletter.html %}
+        </div>
+        <div class="col-md-4">
+            {% include sidebar.html workareas=true events=true limit=2%}
+        </div>
+    </div>  
+</div>

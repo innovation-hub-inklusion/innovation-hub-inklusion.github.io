@@ -1,0 +1,12 @@
+{% assign workarea_projects_inactive = '' | split: '' %}
+{% assign workarea_projects_active = '' | split: '' %}
+
+{% for project in site.projects %}
+    {% if project.workareas contains include.workarea.workarea_id %}
+        {% if project.active == true %}
+            {% assign workarea_projects_active = workarea_projects_active | push: project %}
+        {% else %} 
+            {% assign workarea_projects_inactive = workarea_projects_inactive | push: project %}
+        {% endif %}
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="container">
+    {% if page.image %} 
+        <img class="card-img-top mb-5" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+    {% endif %} 
+    <div class="row">
+        <div class="col-lg-8">
+            <h4 class="font-weight-bold spanborder">
+                <span>{% if page.collection == "workareas" %}<div class="badge badge-primary">{{page.workarea_id}}</div> {% endif %}{{page.title}}</span>
+            </h4>
+            <div class="page-content">
+                {{ content }}
+            </div>
+
+            {% if page.collection == "workareas" %} 
+                <div class="projects mb-5">
+                    {% include list-project-cards-from-workarea.html workarea=page active=true inactive=true%}
+                </div>
+            {% endif %} 
+
+            {% include newsletter.html %}
+        </div>
+        <div class="col-lg-4">
+            {% include sidebar.html events=true limit=6%}
+        </div>
+    </div>  
+</div>

@@ -1,0 +1,53 @@
+---
+title: "Mitwirkende"
+layout: default
+permalink: "/profiles.html"
+---
+
+<div class="container">
+    
+    <h4 class="font-weight-bold spanborder"><span>Mitarbeitende im Sekretariat</span></h4>
+    <p class="mb-3 lead">Das Sekretariat organisiert das Tagesgeschäft und engagiert sich für eine kontinuierliche Weiterentwicklung unserer Aktivitäten.</p>
+
+    <div class="gap-y listprofiles">
+        {% assign sorted_profiles = site.profiles | sort: 'sort_order' %}
+        {% assign normal_profiles = '' | split: '' %}
+        {% assign supporter_profiles = '' | split: '' %}
+
+        {% for profile in sorted_profiles %}
+            {% if profile.core_team %}
+                {% include card-profile.html class="border rounded" %}
+            {% elsif profile.supporter%} 
+                {% assign supporter_profiles = supporter_profiles | push: profile %}
+            {% else %}  
+                {% assign normal_profiles = normal_profiles | push: profile %}  
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {% if supporter_profiles != empty %}
+
+        <h4 class="font-weight-bold spanborder mt-3"><span>Unterstützende des Innovation Hub Inklusion</span></h4>
+        <p class="mb-3 lead">Die Unterstützenden sind Freunde und Förderer des Innovation Hub Inklusion und leisten vielfältige Beiträge, um unseren Betrieb aufrecht zu erhalten.</p>
+
+        <div class="gap-y listprofiles">
+            {% for profile in supporter_profiles %}
+                {% include card-profile.html class="border rounded" %}
+            {% endfor %}
+        </div>
+
+    {% endif %}
+
+    {% if normal_profiles != empty %}
+
+        <h4 class="font-weight-bold spanborder mt-3"><span>Mitwirkende im Innovation Netzwerk</span></h4>
+        <p class="mb-3 lead">Das Innovation Netzwerk ist ein Zusammenschluss von Personen und Organisationen die sich aktiv mit den Chancen und Herausforderungen von Inklusion beschäftigen und mit Ihrer Arbeit einen Beitrag zum Gelingen von Inklusion leisten wollen.</p>
+
+        <div class="gap-y listprofiles">
+            {% for profile in normal_profiles %}
+                {% include card-profile.html class="border rounded" %}
+            {% endfor %}
+        </div>
+
+    {% endif %}
+</div>

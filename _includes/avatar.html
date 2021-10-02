@@ -1,0 +1,18 @@
+{% comment %} Find right avatar file name {% endcomment %}
+{% if include.profile.avatar == nil %}
+    {% comment %} No avatar file name specified in frontmatter, search if a file with profile_id exists {% endcomment %}
+    {% assign profile_id_avatar = '/assets/images/avatars/' | append: include.profile.profile_id | append: '.jpg' %}
+    {% for static_file in site.static_files %}
+        {% if static_file.path == profile_id_avatar %}
+            {% assign avatar_file_name = include.profile.profile_id | append: '.jpg' %}
+        {% endif %}
+    {% endfor %}
+    {% comment %} Check if fallback to generic avatar is necessary {% endcomment %}
+    {% if avatar_file_name == nil %}
+        {% assign avatar_file_name = 'avatar.svg' %}
+    {% endif %}
+{% else %}
+    {% assign avatar_file_name = include.profile.avatar %}
+{% endif %}
+
+<img alt="{{ include.profile.name }}" src="{{site.baseurl}}/assets/images/avatars/{{ avatar_file_name }}" class="rounded-circle">

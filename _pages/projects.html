@@ -1,0 +1,36 @@
+---
+title: "Projekte"
+layout: default
+permalink: "/projects.html"
+---
+
+<div class="container">
+    
+    <h4 class="font-weight-bold spanborder"><span>Aktuelle Projekte</span></h4>
+    <p class="mb-3 lead">Hier finden Sie eine Übersicht der aktuellen Projekte die von uns unterstützt werden.</p>
+
+    <div class="gap-y listprojects">
+            {% assign inactive_projects = '' | split: '' %}
+            {% for project in site.projects %}
+                {% if project.active == true %}
+                    {% include card-project.html %}
+                {% else %} 
+                    {% assign inactive_projects = inactive_projects | push: project %}
+                {% endif %}
+            {% endfor %}
+    </div>
+
+    {% if inactive_projects != empty %}
+
+        <h4 class="font-weight-bold spanborder"><span>Abgeschlossene Projekte</span></h4>
+        <p class="mb-3 lead">Hier finden Sie eine Übersicht von abgeschlossenen Projekten die von uns unterstützt wurden.</p>
+
+        <div class="gap-y listprojects">
+                {% for project in inactive_projects %}
+                        {% include card-project.html %}
+                {% endfor %}
+        </div>
+        
+    {% endif %} 
+
+</div>

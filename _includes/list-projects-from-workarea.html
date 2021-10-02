@@ -1,0 +1,7 @@
+<span class="projectlist">
+    {% for project in site.projects %}
+        {% if project.active != include.inactive and project.workareas contains include.workarea_id %}
+        <a href="{{project.url}}">{{ project.title }}</a><span class="sep">, </span><span class="sep-last">. </span>
+        {% endif %}  
+    {% endfor %}
+</span>

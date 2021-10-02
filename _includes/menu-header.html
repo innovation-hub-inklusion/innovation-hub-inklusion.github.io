@@ -1,0 +1,9 @@
+<!--  Replace menu links here -->
+
+{% for item in site.data.navigation %}
+    <li class="nav-item">
+        <a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{site.baseurl}}{{ item.link }}">
+        {{ item.name }}
+        </a>
+    </li>
+{% endfor %}

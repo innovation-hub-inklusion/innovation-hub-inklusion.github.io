@@ -1,0 +1,51 @@
+<div class="sticky-top sticky-top-offset">
+    {% if include.workareas %}
+        <h4 class="font-weight-bold spanborder"><span>Unsere Arbeitsbereiche</span></h4>  
+        <ol class="list-featured mb-5">				
+            {% assign sorted_workareas = site.workareas | sort: "sort_order" %}
+            {% for workarea in sorted_workareas %}                
+                <li class="mb-4">
+                    <div>
+                        <h6 class="font-weight-bold">
+                            <a href="{{site.baseurl}}{{ workarea.url }}" class="text-dark">{{ workarea.title }}</a>
+                        </h6>
+                        <span class="d-block text-muted">
+                            <span class="badge badge-primary">
+                                {% assign workarea_filter = "item.workareas contains '" | append: workarea.workarea_id | append: "'"%}
+                                {% assign workarea_projects = site.projects | where_exp:"item", workarea_filter %}
+                                {{workarea_projects.size}}
+                            </span> Projekt(e) 
+                            <span class="ml-4 badge badge-primary">
+                                {% assign workarea_events = site.events | where_exp:"item", workarea_filter %}
+                                {{workarea_events.size}}
+                            </span> Veranstaltung(en)
+                        </span>
+                    </div>
+                </li>                
+            {% endfor %}   
+        </ol>
+    {% endif %}
+    {% if include.events %}
+        {% assign sorted_events = site.events | where_exp:"item", 'item.event_date_start > site.time' | sort: "event_date_start" %}
+        {% assign include_workeareas = true %}
+        {% if page.collection == "workareas" %}
+            {% assign workarea_filter = "item.workareas contains '" | append: page.workarea_id | append: "'"%}
+            {% assign sorted_events = sorted_events | where_exp:"item", workarea_filter %}
+            {% assign include_workeareas = false %}
+        {% endif %}
+        <h4 class="font-weight-bold spanborder"><span>Nächste Veranstaltungen</span></h4>  
+        {% if sorted_events.size > 0 %}
+            <ol class="list-featured">				
+                {% for event in sorted_events limit:include.limit %}                
+                    <li class="mb-4">
+                        <div>   
+                            {% include event-overview.html event=event title=true subtitle=true workareas=include_workeareas%}
+                        </div>
+                    </li>                
+                {% endfor %}   
+            </ol>
+        {% else %}
+            <div class="alert alert-light" role="alert">Es gibt aktuell keine bevorstehenden Veranstaltungen.</div>
+        {% endif %}
+    {% endif %} 
+</div> 

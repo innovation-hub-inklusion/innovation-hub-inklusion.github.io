@@ -1,0 +1,53 @@
+<div class="jumbotron jumbotron-fluid jumbotron-post py-5 bg-lightgreen rounded">
+    <div class="row">
+        <div class="col-md-10 offset-md-1 {% if page.image %}col-lg-8{% endif %}">
+            <h1 class="display-4 article-headline">{{ page.title }}</h1>
+            {% if page.subtitle %}
+                <p class="display-5 article-subheadline">{{ page.subtitle }}</p>
+            {% endif %}
+            {% if profile or page.collection == 'events' or page.events%}
+                <div class="row">
+                    {% if page.collection == 'events' or page.events %}
+                        <div class="my-2 col-md-7 col-lg-6 col-xl-5">
+                            {% if page.events %}
+                                {% include list-events-overview.html events=page.events item_class="bg-lightgreen"%}
+                            {% else %}
+                                {% include event-overview.html event=page %}
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                    {% if profile %}
+                        <div class="my-2 col-md-5">
+                            <div class="avatar-sm">{% include avatar.html profile=profile %}</div> {{ profile.name }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+            {% if page.date %}
+                <small class="text-muted">
+                      Erstellt am {{ page.date | date: '%d.%m.%Y' }}.
+                </small>
+            {% endif %}
+            {% if page.workareas %}
+                <small class="text-muted">
+                    Arbeitsbereiche: {% include list-workareas.html workareas=page.workareas %}
+                </small>
+            {% endif %}
+            {% if page.projects %}
+                <small class="text-muted">
+                    Projekte: {% include list-projects.html projects=page.projects %}
+                </small>
+            {% endif %}
+            {% if page.events %}
+                <small class="text-muted">
+                    Veranstaltungen: {% include list-events.html events=page.events %}
+                </small>
+            {% endif %}
+        </div>
+        {% if page.image %}
+            <div class="col-lg-3 text-center d-none d-lg-block">
+                <img class="img-thumbnail image-panel shadow" alt="{{ page.title }}" src="{{site.baseurl}}{{ page.image }}">
+            </div>
+        {% endif %}
+    </div>
+</div>

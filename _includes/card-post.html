@@ -1,0 +1,32 @@
+<div class="mb-5 card-post row">
+	<div class="{% if post.image %}col-xl-7{% else %}col-lg-11{% endif %}">
+		<h2 class="mb-1 h4 font-weight-bold">
+			<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+		</h2>
+		{% if post.subtitle %}
+		<p class="subtitle">{{ post.subtitle }}</p>
+		{% endif %}
+		<p class="excerpt">
+			{{ post.excerpt  | strip_html | strip_newlines }}
+		</p>
+		{% if post.events %}
+			{% include list-events-overview.html events=post.events subtitle=true item_class="event-flat-style"%}
+		{% endif %}
+		<small class="d-block text-muted">
+			Erstellt am {{ post.date | date: '%d.%m.%Y' }}. 
+			{% if post.workareas %}
+				Arbeitsbereiche: {% include list-workareas.html workareas=post.workareas %}
+			{% endif %}
+			{% if post.projects %}
+				Projekte: {% include list-projects.html projects=post.projects %}
+			{% endif %}
+		</small>
+	</div>
+{% if post.image %}
+	<div class="col-xl-5 pr-0 text-right order-first order-xl-last">
+		<a href="{{site.baseurl}}{{post.url}}">
+			<div class="w-100 card-post-image" style="background-image: url({{ site.baseurl }}/{{ post.image }});"></div>
+		</a>
+	</div>
+{% endif %}
+</div>

@@ -1,0 +1,83 @@
+# Site
+name: 'Innovation Hub INKLUSION'
+title: 'Innovation Hub INKLUSION'
+description: 'Der Innovation Hub INKLUSION schafft Räume für inklusive Innovationen.'
+logo: 'assets/images/logo.svg'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+email: 'alexander.herwix@uni-leipzig.de'
+newsletter_url: 'test'
+
+jumbotron: 
+  image: 'home.svg'
+  
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  events:
+    output: true
+    permalink: /:collection/:title
+  profiles:
+  projects:
+    output: true
+    permalink: /:collection/:title
+  workareas:
+    output: true
+    permalink: /:collection/:title
+
+ 
+# Defaults
+defaults:
+
+  # all events
+  - scope:
+      path: "_events"
+    values:
+      layout: post
+
+  # all projects
+  - scope:
+      path: "_projects"
+    values:
+      layout: post
+
+  # all workareas
+  - scope:
+      path: "_workareas"
+    values:
+      layout: page-sidebar-events
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, README.md, Gemfile, Gemfile.lock, docker-compose.yml]

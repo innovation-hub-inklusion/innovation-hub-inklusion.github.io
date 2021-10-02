@@ -1,0 +1,40 @@
+---
+title: "Innovation Hub INKLUSION"
+layout: default
+pagination:
+    enabled: true
+description: "Der Innovation Hub INKLUSION schafft Räume für inklusive Innovation."
+---
+
+
+<div class="container">
+    
+    {% if page.url == "/" %}
+        
+        {% include section-jumbotron-home.html %}
+        {% include section-overview.html %}
+        
+    {% endif %} <!--endif page url is / -->
+
+    <!-- Display all posts -->
+        
+    <div class="row mt-3">
+        <div class="col-lg-8 posts">
+            
+            <h4 class="font-weight-bold spanborder"><span>Neuigkeiten</span></h4>
+
+            {% for post in paginator.posts %}
+                {% include card-post.html %}
+            {% endfor %}
+            
+            <div class="mt-5">
+                {% include pagination.html %}
+            </div>
+        
+            {% include newsletter.html %}
+        </div>
+        <div class="col-lg-4 sidebar">
+            {% include sidebar.html workareas=true events=true limit=2%}    
+        </div>
+    </div>
+</div>

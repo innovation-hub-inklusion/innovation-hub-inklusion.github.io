@@ -1,0 +1,55 @@
+---
+layout: default
+---
+{% include find-profile.html profile_id=page.author %}
+
+<div class="container">
+	{% include section-jumbotron-post.html %}
+</div>
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">    
+        <!-- Share -->
+		<div class="col-lg-2 d-none d-lg-block">
+			<div class="sticky-top sticky-top-offset-lg">
+				<div class="text-muted font-weight-bold">
+					Teile diese Seite
+				</div>
+				<div class="share d-inline-block">
+					{% include share-buttons.html %}
+				</div>
+			</div>
+		</div>          
+		<div class="col-md-12 col-lg-8">       
+            <!-- Article -->
+			<article class="article-post">                
+			{{ content }}                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				{% if page.workareas %}
+					<div class="text-muted text-sm">
+						Arbeitsbereiche: {% include list-workareas.html workareas=page.workareas %}
+					</div>
+				{% endif %}
+				{% if page.projects %}
+					<div class="text-muted text-sm">
+						Projekte: {% include list-projects.html projects=page.projects %}
+					</div>
+				{% endif %}
+				{% if page.events %}
+					<div class="text-muted text-sm">
+						Veranstaltungen: {% include list-events.html events=page.events %}
+					</div>
+				{% endif %}
+			</div>
+            
+            {% include newsletter.html %}
+			{% include card-profile.html %}
+		</div>
+	</div>
+</div>
+
+{% include alertbar-navigation.html %}
+
