@@ -1,6 +1,6 @@
 ---
 title: Selbstlernen.app
-subtitle: Ein App zur Förderung von selbstreguliertem Lernen
+subtitle: Ein Plattform zur Förderung von selbstreguliertem Lernen
 project_id: P-SELBSTLERNEN
 workareas: [ AB-2, AB-3, AB-4 ]
 image: /assets/images/projects/selbstreguliertes_lernen.jpg
