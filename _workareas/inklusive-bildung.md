@@ -2,7 +2,7 @@
 workarea_id: AB-2
 title: Inklusive Bildung über die Lebensspanne
 sort_order: 2
-
+image: /assets/images/workareas/AB-2.svg
 ---
 Der Arbeitsbereich *Inklusive Bildung über die Lebensspanne* fokussiert einen lebensabschnittübergreifenden Blick auf Inklusion und addressiert vor allem die Herausforderungen die mit Lebensabschnittwechseln (z.B. Kindertagesstätte > Grundschule > Weiterführende Schule > Ausbildung > Arbeitsmarkt) einhergehen. 
 
