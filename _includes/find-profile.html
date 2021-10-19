@@ -1,3 +1,4 @@
+{% assign profile = nil %}
 {% assign filtered_profiles = site.profiles | where: "profile_id", include.profile_id %}
 {% if filtered_profiles.size > 0 %}
     {% assign profile = filtered_profiles[0] %}

@@ -4,7 +4,7 @@ layout: page-sidebar-events
 permalink: "/workareas.html"
 ---
 
-<p class="mb-3 lead">Hier finden Sie eine Übersicht der Arbeitsbereiche und Projekte mit denen wir uns beschäftigen.</p>
+<p class="mb-3 lead">Hier finden Sie eine Übersicht der Arbeitsbereiche mit denen wir uns beschäftigen.</p>
 
 {% assign sorted_workareas = site.workareas | sort: "sort_order" %}
 {% for workarea in sorted_workareas %} 
@@ -13,8 +13,8 @@ permalink: "/workareas.html"
 			<a href="{{site.baseurl}}{{ workarea.url }}" class="text-dark"><span class="badge badge-primary">{{workarea.workarea_id}}</span> {{ workarea.title }}</a>
 		</h4>
 		<p class="excerpt">{{ workarea.excerpt | strip_html | strip_newlines }}</p>
-		<div class="projects">
-			{% include list-project-cards-from-workarea.html workarea=workarea active=true inactive=true%}
-		</div>
+		<p>
+			<a href="{{site.baseurl}}{{ workarea.url }}" class="btn btn-outline-primary">Weiterlesen</a>
+		</p>
 	</div>
 {% endfor %}   

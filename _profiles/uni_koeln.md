@@ -1,9 +1,9 @@
 ---
-profile_id: uzk
+profile_id: uni-koeln
 name: Universität zu Köln
 position: Humanwissenschaftliche Fakultät
 avatar: uzk.svg
 supporter: true
 website: https://www.hf.uni-koeln.de/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar interdum nulla sit amet ultricies. Proin vestibulum quam id molestie vulputate. Ut varius scelerisque tempus. Phasellus quis interdum mauris. Maecenas eget malesuada urna, vel tempus ex. Cras in leo eget velit sodales semper. Cras ut ornare ante, quis efficitur tellus. Phasellus eget egestas augue. Nulla et nisl ac quam feugiat scelerisque. Phasellus faucibus pulvinar dolor, ut ullamcorper elit pulvinar et. Aliquam eu mattis dolor, at dapibus enim. Proin pharetra porttitor ex, sit amet venenatis nisl egestas quis. 
+Inklusion kann als eines der Kernthemen der Humanwissenschaftlichen Fakultät an der Universität zu Köln begriffen werden. Verschiedene Forschungseinrichtungen, Professuren und Arbeitsbereiche haben ihren Arbeits- und Forschungsschwerpunkt in den Bereichen Inklusion, Diversität und Heterogenität. Beispiele sind etwa der Arbeitsbereich „Didaktik des inklusiven Unterrichts“, die enge Zusammenarbeit mit den Inklusiven Universitätsschulen der Stadt Köln (IUS) oder die breite Auswahl an Fach- und Lehramtsstudiengängen. 
