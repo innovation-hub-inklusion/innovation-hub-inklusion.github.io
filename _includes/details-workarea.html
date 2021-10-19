@@ -7,12 +7,14 @@
 {% if include.list_posts %}
     {% include find-posts-by-workarea.html workarea=include.workarea %}
 
-    {% include list-cards-collapse.html 
-        title="Neuigkeiten" 
-        collapse_id_prefix=include.workarea.workarea_id 
-        collapse_id="posts"
-        count=true 
-        list_items=workarea_posts %}
+    {% if workarea_posts != empty %}
+        {% include list-cards-collapse.html 
+            title="Neuigkeiten" 
+            collapse_id_prefix=include.workarea.workarea_id 
+            collapse_id="posts"
+            count=true 
+            list_items=workarea_posts %}
+    {% endif %}
 {% endif %}
 
 {% if include.list_projects %}
