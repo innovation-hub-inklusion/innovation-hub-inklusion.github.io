@@ -3,6 +3,7 @@ profile_id: alex
 name: Alexander Herwix
 position: Stellvertretende Leitung des Innovation Hub INKLUSION
 core_team: true
+workareas: ['AB-1','AB-4']
 sort_order: 2
 
 ---

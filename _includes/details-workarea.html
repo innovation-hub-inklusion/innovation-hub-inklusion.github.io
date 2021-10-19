@@ -1,0 +1,56 @@
+{% if include.call_to_action %}
+    <a class="btn btn-lg btn-primary d-block font-weight-bold mb-3" href="{{site.baseurl}}/participate.html" role="button">
+        Jetzt Mitmachen!
+    </a>
+{% endif %}
+
+{% if include.list_posts %}
+    {% include find-posts-by-workarea.html workarea=include.workarea %}
+
+    {% include list-cards-collapse.html 
+        title="Neuigkeiten" 
+        collapse_id_prefix=include.workarea.workarea_id 
+        collapse_id="posts"
+        count=true 
+        list_items=workarea_posts %}
+{% endif %}
+
+{% if include.list_projects %}
+    {% include find-projects-by-workarea.html workarea=include.workarea %}
+
+    {% include list-cards-collapse.html 
+        title="Aktuelle Projekte" 
+        collapse_id_prefix=include.workarea.workarea_id 
+        collapse_id="projects-active"
+        count=true  
+        list_items=workarea_projects_active %}
+
+    {% if workarea_projects_inactive != empty %}
+        {% include list-cards-collapse.html 
+            title="Beendete Projekte" 
+            collapse_id_prefix=include.workarea.workarea_id 
+            collapse_id="projects-inactive" 
+            count=true 
+            list_items=workarea_projects_inactive %}
+    {% endif %}
+{% endif %}
+
+{% if include.list_profiles %}
+    {% include find-profiles-by-workarea.html workarea=include.workarea %}
+
+    {% include list-cards-collapse.html 
+        title="Mitarbeitende" 
+        collapse_id_prefix=include.workarea.workarea_id 
+        collapse_id="profiles"
+        count=true 
+        list_items=workarea_profiles %}
+
+    {% if workarea_profiles_supporter != empty %}
+        {% include list-cards-collapse.html 
+            title="Unterstützende" 
+            collapse_id_prefix=include.workarea.workarea_id 
+            collapse_id="profiles-supporter" 
+            count=true 
+            list_items=workarea_profiles_supporter %}
+    {% endif %}
+{% endif %}

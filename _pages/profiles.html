@@ -16,7 +16,9 @@ permalink: "/profiles.html"
 
         {% for profile in sorted_profiles %}
             {% if profile.core_team %}
-                {% include card-profile.html class="border rounded" %}
+                <div class="border rounded my-4 p-4">
+                    {% include card-profile.html profile=profile %}
+                </div>
             {% elsif profile.supporter%} 
                 {% assign supporter_profiles = supporter_profiles | push: profile %}
             {% else %}  
@@ -32,7 +34,9 @@ permalink: "/profiles.html"
 
         <div class="gap-y listprofiles">
             {% for profile in supporter_profiles %}
-                {% include card-profile.html class="border rounded" %}
+            <div class="border rounded my-4 p-4">
+                {% include card-profile.html profile=profile %}
+            </div>
             {% endfor %}
         </div>
 
@@ -45,7 +49,9 @@ permalink: "/profiles.html"
 
         <div class="gap-y listprofiles">
             {% for profile in normal_profiles %}
-                {% include card-profile.html class="border rounded" %}
+                <div class="border rounded my-4 p-4">
+                    {% include card-profile.html profile=profile %}
+                </div>
             {% endfor %}
         </div>
 

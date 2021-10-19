@@ -13,7 +13,7 @@ permalink: "/projects.html"
             {% assign inactive_projects = '' | split: '' %}
             {% for project in site.projects %}
                 {% if project.active == true %}
-                    {% include card-project.html %}
+                    {% include card-project.html project=project%}
                 {% else %} 
                     {% assign inactive_projects = inactive_projects | push: project %}
                 {% endif %}
@@ -27,7 +27,7 @@ permalink: "/projects.html"
 
         <div class="gap-y listprojects">
                 {% for project in inactive_projects %}
-                        {% include card-project.html %}
+                        {% include card-project.html project=project%}
                 {% endfor %}
         </div>
         

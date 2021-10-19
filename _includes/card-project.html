@@ -2,28 +2,28 @@
 <div class="row">
     <div class="col-md-10">
         <h4 class="text-dark mb-0"> 
-            <a class="text-dark" href="{{site.baseurl}}{{project.url}}">
-                {{ project.title }}         
+            <a class="text-dark" href="{{site.baseurl}}{{include.project.url}}">
+                {{ include.project.title }}         
             </a>
         </h4>
         {% if include.workareas %}
             <small class="d-inline-block mt-1 font-weight-normal">
-                Arbeitsbereiche: {% include list-workareas.html workareas=project.workareas %}
+                Arbeitsbereiche: {% include list-workareas.html workareas=include.project.workareas %}
             </small>
         {% endif %}
-        <div class="excerpt">{{ project.excerpt | strip_html }}</div>
-        {% if project.website %}
+        <div class="excerpt">{{ include.project.excerpt | strip_html }}</div>
+        {% if include.project.website %}
             <div class="icon-block mt-3 d-flex justify-content-between">  
                 <div>
-                    <a target="_blank" href="{{ project.website }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
+                    <a target="_blank" href="{{ include.project.website }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
                 </div>
             </div>
         {% endif %}
     </div>
-    {% if project.image %}
+    {% if include.project.image %}
         <div class="col-md-2 mb-4 mb-md-0 text-center">
-            <a href="{{site.baseurl}}{{project.url}}">
-                <img class="img-thumbnail shadow" alt="{{ project.title }}" src="{{site.baseurl}}{{ project.image }}">
+            <a href="{{site.baseurl}}{{include.project.url}}">
+                <img class="img-thumbnail shadow" alt="{{ include.project.title }}" src="{{site.baseurl}}{{ include.project.image }}">
             </a>
         </div>
     {% endif %}

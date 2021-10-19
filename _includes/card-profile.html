@@ -1,30 +1,28 @@
 {% comment %} Reset avatar file name {% endcomment %}
 {% assign avatar_file_name = nil %}
 
-{% if profile %}
-    <div class="p-4 mt-4 mb-4 {{include.class}}">
-        <div class="row">
-            <div class="col-md-2 mb-4 mb-md-0 text-center">
-                {% include avatar.html profile=profile %}
-            </div>
-            <div class="col-md-10">
-                {% if profile.website %}
-                    <a target="_blank" href="{{ profile.website }}"><h4 class="text-dark mb-0">{{ profile.name }} <i class="fa fa-link"></i></h4></a>
-                {% else %}
-                    <h4 class="text-dark mb-0">{{ profile.name }}</h4>
-                {% endif %}
-                <small class="d-inline-block mt-1 font-weight-normal">{{ profile.position }}</small>
-                <div class="excerpt">{{ profile.content | markdownify }}</div>
-                {% if profile.twitter or profile.website %}
-                    <div class="icon-block mt-3 d-flex justify-content-between">  
-                        <div>
-                            {% if profile.twitter %}
-                                <a target="_blank" href="{{ profile.twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>
-                            {% endif %}
-                        </div>
+{% if include.profile %}
+    <div class="row">
+        <div class="col-md-2 mb-4 mb-md-0 text-center">
+            {% include avatar.html profile=include.profile %}
+        </div>
+        <div class="col-md-10">
+            {% if include.profile.website %}
+                <a target="_blank" href="{{ include.profile.website }}"><h4 class="text-dark mb-0">{{ include.profile.name }} <i class="fa fa-link"></i></h4></a>
+            {% else %}
+                <h4 class="text-dark mb-0">{{ include.profile.name }}</h4>
+            {% endif %}
+            <small class="d-inline-block mt-1 font-weight-normal">{{ include.profile.position }}</small>
+            <div class="excerpt">{{ include.profile.content | markdownify }}</div>
+            {% if include.profile.twitter or include.profile.website %}
+                <div class="icon-block mt-3 d-flex justify-content-between">  
+                    <div>
+                        {% if include.profile.twitter %}
+                            <a target="_blank" href="{{ include.profile.twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>
+                        {% endif %}
                     </div>
-                {% endif %}
-            </div>
+                </div>
+            {% endif %}
         </div>
     </div>
 {% endif %}

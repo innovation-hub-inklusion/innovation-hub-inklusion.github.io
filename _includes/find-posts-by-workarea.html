@@ -1,0 +1,2 @@
+{% assign workarea_posts_filter = 'item.workareas contains "' | append: include.workarea.workarea_id | append: '"' %}
+{% assign workarea_posts = site.posts | where_exp:"item", workarea_posts_filter %}

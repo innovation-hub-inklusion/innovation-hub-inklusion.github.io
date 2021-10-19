@@ -17,7 +17,7 @@ permalink: "/tags.html"
         {% if post.title != null %}
           {% if group == null or group == post.group %}
          
-            {% include card-post.html %}
+            {% include card-post.html post=post%}
           {% endif %}
         {% endif %}
         {% endfor %}

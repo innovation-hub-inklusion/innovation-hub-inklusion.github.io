@@ -3,14 +3,14 @@
     <div class="row">
         <div class="col-md-10">
             <h4 class="text-dark mb-0"> 
-                <a class="text-dark" href="{{site.baseurl}}{{workarea.url}}">
-                    {{ workarea.title }}         
+                <a class="text-dark" href="{{site.baseurl}}{{include.workarea.url}}">
+                    {{ include.workarea.title }}         
                 </a>
             </h4>
             <small class="d-inline-block mt-1 font-weight-normal">
-                Projekte: {% include list-projects-from-workarea.html workarea_id=workarea.workarea_id %}
+                Projekte: {% include list-projects-from-workarea.html workarea_id=include.workarea.workarea_id %}
             </small>
-            <div class="excerpt">{{ workarea.excerpt | strip_html }}</div>
+            <div class="excerpt">{{ include.workarea.excerpt | strip_html }}</div>
         </div>
     </div>
 </div>

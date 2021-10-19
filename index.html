@@ -24,7 +24,9 @@ description: "Der Innovation Hub INKLUSION schafft Räume für inklusive Innovat
             <h4 class="font-weight-bold spanborder"><span>Neuigkeiten</span></h4>
 
             {% for post in paginator.posts %}
-                {% include card-post.html %}
+                <div class="mb-5">
+                    {% include card-post.html post=post %}
+                </div>
             {% endfor %}
             
             <div class="mt-5">
