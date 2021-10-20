@@ -26,6 +26,10 @@ layout: default
 			{{ content }}                
 			</article>
 			
+			{% if page.collection == "projects" %} 
+				<a class="btn btn-primary btn-lg font-weight-bold d-block mb-4" href="{{site.baseurl}}/participate.html" role="button">Jetzt mitmachen!</a>
+			{% endif %} 
+
 			<!-- Tags -->
 			<div class="mb-4">
 				{% if page.workareas %}
@@ -43,10 +47,10 @@ layout: default
 						Veranstaltungen: {% include list-events.html events=page.events %}
 					</div>
 				{% endif %}
-			</div>
-            
+			</div>	
+
             {% include newsletter.html %}
-			
+
 			<div class="mt-5">
 				{% include card-profile.html profile=profile%}
 			</div>
