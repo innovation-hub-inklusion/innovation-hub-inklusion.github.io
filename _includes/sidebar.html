@@ -39,7 +39,7 @@
                 {% for event in sorted_events limit:include.limit %}                
                     <li class="mb-4">
                         <div>   
-                            {% include event-overview.html event=event title=true subtitle=true workareas=include_workeareas%}
+                            {% include details-event.html event=event title=true subtitle=true workareas=include_workeareas%}
                         </div>
                     </li>                
                 {% endfor %}   

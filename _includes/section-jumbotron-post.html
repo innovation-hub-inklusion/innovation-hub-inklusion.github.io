@@ -10,9 +10,9 @@
                     {% if page.collection == 'events' or page.events %}
                         <div class="my-2 col-md-7 col-lg-6 col-xl-5">
                             {% if page.events %}
-                                {% include list-events-overview.html events=page.events item_class="bg-lightgreen"%}
+                                {% include list-details-event.html events=page.events item_class="bg-lightgreen"%}
                             {% else %}
-                                {% include event-overview.html event=page %}
+                                {% include details-event.html event=page %}
                             {% endif %}
                         </div>
                     {% endif %}

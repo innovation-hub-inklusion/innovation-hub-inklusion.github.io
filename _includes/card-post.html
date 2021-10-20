@@ -10,7 +10,7 @@
 			{{ include.post.excerpt | strip_newlines }}
 		</div>
 		{% if include.post.events %}
-			{% include list-events-overview.html events=include.post.events subtitle=true item_class="event-flat-style"%}
+			{% include list-details-event.html events=include.post.events subtitle=true item_class="event-flat-style"%}
 		{% endif %}
 		<small class="d-block text-muted">
 			Erstellt am {{ include.post.date | date: '%d.%m.%Y' }}. 
