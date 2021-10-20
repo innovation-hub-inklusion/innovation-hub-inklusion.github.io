@@ -7,7 +7,7 @@
     <div class="text-muted mb-2 subtitle">{{ include.event.subtitle }}</div>
 {% endif %}
 <div class="text-muted">
-    Zeit: <span class="badge badge-primary">{{include.event.event_date_start | date: '%d.%m.%Y %H:%M' }}</span> bis <span class="badge badge-primary">{{include.event.event_date_end | date: '%d.%m.%Y %H:%M' }}</span>
+    Zeit: <span class="badge badge-primary">{{include.event.event_date_start | date: '%d.%m.%y %H:%M' }}</span> bis <span class="badge badge-primary">{{include.event.event_date_end | date: '%d.%m.%y %H:%M' }}</span>
 </div>
 <div class="text-muted event-location">
     Ort: <span class="badge badge-primary text-white">{{include.event.event_location | markdownify }}</span>
