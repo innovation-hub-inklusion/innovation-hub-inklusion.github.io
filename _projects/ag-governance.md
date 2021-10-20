@@ -5,5 +5,6 @@ project_id: AG-GOVERNANCE
 workareas: [ AB-1 ]
 author: alex
 active: true
+image: /assets/images/projects/governance.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar interdum nulla sit amet ultricies. Proin vestibulum quam id molestie vulputate. Ut varius scelerisque tempus. Phasellus quis interdum mauris. Maecenas eget malesuada urna, vel tempus ex. Cras in leo eget velit sodales semper. Cras ut ornare ante, quis efficitur tellus. Phasellus eget egestas augue. Nulla et nisl ac quam feugiat scelerisque. Phasellus faucibus pulvinar dolor, ut ullamcorper elit pulvinar et. Aliquam eu mattis dolor, at dapibus enim. Proin pharetra porttitor ex, sit amet venenatis nisl egestas quis. 
+Die Arbeitsgruppe *Governance* beschäftigt sich mit der Entwicklung der Organisationsstrukturen für den Innovation Hub Inklusion. Dies bedeutet insbesondere die Ausarbeitung einer Satzung, bzw. weiterer Dokumente die für die Implementierung von verlässlichen Organisationsstrukturen notwendig sind. Treffen im Rahmen der AG Governance sind grundsätzlich öffentlich zugänglich. Um als offzielles Mitglied aktiv Einfluss auf Entscheidungen nehmen zu können, sollte ein Zeitinvestment von zunächst 2 Std. pro Woche zugesagt werden können.
