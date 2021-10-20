@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="col-md-10">
+    <div class="{% if include.project.image %}col-md-10{% else %}col-md-12{% endif %}">
         <h4 class="text-dark mb-0"> 
             <a class="text-dark" href="{{site.baseurl}}{{include.project.url}}">
                 {{ include.project.title }}         
@@ -21,7 +21,7 @@
         {% endif %}
     </div>
     {% if include.project.image %}
-        <div class="col-md-2 mb-4 mb-md-0 text-center">
+        <div class="col-md-2 mb-4 mb-md-0 text-center d-flex align-items-center">
             <a href="{{site.baseurl}}{{include.project.url}}">
                 <img class="img-thumbnail shadow" alt="{{ include.project.title }}" src="{{site.baseurl}}{{ include.project.image }}">
             </a>
