@@ -4,7 +4,7 @@
     </h6>
 {% endif %}
 {% if include.subtitle and include.event.subtitle %}
-    <div class="text-muted mb-2 subtitle">{{ include.event.subtitle }}</div>
+    <a href="{{site.baseurl}}{{ include.event.url }}" class="d-block text-muted mb-2 subtitle">{{ include.event.subtitle }}</a>
 {% endif %}
 <div class="text-muted">
     Zeit: <span class="badge badge-primary">{{include.event.event_date_start | date: '%d.%m.%y %H:%M' }}</span> bis <span class="badge badge-primary">{{include.event.event_date_end | date: '%d.%m.%y %H:%M' }}</span>
@@ -13,7 +13,7 @@
     Ort: <span class="badge badge-primary text-white">{{include.event.event_location | markdownify }}</span>
 </div>
 {% if include.workareas and include.event.workareas %}
-    <div class="text-muted mt-2">
+    <div class="text-muted mt-2 small">
         Arbeitsbereiche: {% include list-workareas.html workareas=include.event.workareas %}
     </div>
 {% endif %}

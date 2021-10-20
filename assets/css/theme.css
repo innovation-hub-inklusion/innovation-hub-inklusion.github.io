@@ -717,7 +717,6 @@ ol.list-featured {
 ol.list-featured li {
 	counter-increment:my-awesome-counter;
 	display:flex;
-	font-size:0.8rem;
 }
 ol.list-featured li:before {
     content: "0" counter(my-awesome-counter);
@@ -727,10 +726,6 @@ ol.list-featured li:before {
     font-family: Arial;
     line-height: 1;
     opacity: .1;
-}
-
-ol.list-featured .excerpt {
-	font-size: 1rem;
 }
 
 .catlist .sep:last-child, 

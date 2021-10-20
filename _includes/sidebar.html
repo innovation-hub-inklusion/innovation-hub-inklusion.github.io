@@ -9,7 +9,7 @@
                         <h6 class="font-weight-bold">
                             <a href="{{site.baseurl}}{{ workarea.url }}" class="text-dark">{{ workarea.title }}</a>
                         </h6>
-                        <a href="{{site.baseurl}}{{ workarea.url }}" class="d-block text-muted">
+                        <a href="{{site.baseurl}}{{ workarea.url }}" class="d-block text-muted small">
                             <span class="badge badge-primary">
                                 {% assign workarea_filter = "item.workareas contains '" | append: workarea.workarea_id | append: "'"%}
                                 {% assign workarea_projects = site.projects | where_exp:"item", workarea_filter %}
@@ -39,7 +39,7 @@
                 {% for event in sorted_events limit:include.limit %}                
                     <li class="mb-4">
                         <div>   
-                            {% include details-event.html event=event title=true subtitle=true workareas=include_workeareas%}
+                            {% include details-event.html event=event title=true workareas=include_workeareas%}
                         </div>
                     </li>                
                 {% endfor %}   
