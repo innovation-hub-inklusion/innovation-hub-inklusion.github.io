@@ -6,9 +6,9 @@
 		{% if include.post.subtitle %}
 		<p class="subtitle">{{ include.post.subtitle }}</p>
 		{% endif %}
-		<p class="excerpt">
-			{{ include.post.excerpt  | strip_html | strip_newlines }}
-		</p>
+		<div class="excerpt">
+			{{ include.post.excerpt | strip_newlines }}
+		</div>
 		{% if include.post.events %}
 			{% include list-events-overview.html events=include.post.events subtitle=true item_class="event-flat-style"%}
 		{% endif %}
