@@ -9,7 +9,7 @@
                         <h6 class="font-weight-bold">
                             <a href="{{site.baseurl}}{{ workarea.url }}" class="text-dark">{{ workarea.title }}</a>
                         </h6>
-                        <span class="d-block text-muted">
+                        <a href="{{site.baseurl}}{{ workarea.url }}" class="d-block text-muted">
                             <span class="badge badge-primary">
                                 {% assign workarea_filter = "item.workareas contains '" | append: workarea.workarea_id | append: "'"%}
                                 {% assign workarea_projects = site.projects | where_exp:"item", workarea_filter %}
@@ -19,7 +19,7 @@
                                 {% assign workarea_events = site.events | where_exp:"item", workarea_filter %}
                                 {{workarea_events.size}}
                             </span> Veranstaltung(en)
-                        </span>
+                        </a>
                     </div>
                 </li>                
             {% endfor %}   
