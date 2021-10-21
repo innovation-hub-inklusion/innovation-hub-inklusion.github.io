@@ -2,8 +2,8 @@
 title:  Webinar zu Prosocial
 subtitle: Eine Einführung in Prosocial für den Bildungssektor
 author: alex
-workareas: [ AB-1 ]
-projects: [ AG-GOVERNANCE ]
+workareas: [ AB-1, AB-2 ]
+projects: [ AG-GOVERNANCE, AG-METHODIK ]
 events: [20211109-PROSOCIAL]
 ---
 
