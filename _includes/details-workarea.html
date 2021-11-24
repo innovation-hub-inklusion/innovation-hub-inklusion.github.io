@@ -17,26 +17,6 @@
     {% endif %}
 {% endif %}
 
-{% if include.list_projects %}
-    {% include find-projects-by-workarea.html workarea=include.workarea %}
-
-    {% include list-cards-collapse.html 
-        title="Aktuelle Projekte" 
-        collapse_id_prefix=include.workarea.workarea_id 
-        collapse_id="projects-active"
-        count=true  
-        list_items=workarea_projects_active %}
-
-    {% if workarea_projects_inactive != empty %}
-        {% include list-cards-collapse.html 
-            title="Beendete Projekte" 
-            collapse_id_prefix=include.workarea.workarea_id 
-            collapse_id="projects-inactive" 
-            count=true 
-            list_items=workarea_projects_inactive %}
-    {% endif %}
-{% endif %}
-
 {% if include.list_profiles %}
     {% include find-profiles-by-workarea.html workarea=include.workarea %}
 
@@ -55,4 +35,16 @@
             count=true 
             list_items=workarea_profiles_supporter %}
     {% endif %}
+{% endif %}
+
+{% if include.list_projects %}
+    {% include find-projects-by-workarea.html workarea=include.workarea %}
+
+    {% include list-cards-collapse.html 
+        title="Befreundete Projekte" 
+        collapse_id_prefix=include.workarea.workarea_id 
+        collapse_id="projects-active"
+        count=true  
+        list_items=workarea_projects_active %}
+        
 {% endif %}
