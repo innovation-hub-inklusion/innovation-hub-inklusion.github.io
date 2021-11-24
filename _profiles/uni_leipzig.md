@@ -4,7 +4,9 @@ name: Universität Leipzig
 position: Erziehungswissenschaftliche Fakultät
 avatar: uni_leipzig.svg
 supporter: true
+rounded: false
+sort_order: 1
 website: https://www.erzwiss.uni-leipzig.de/
 workareas: ['AB-1','AB-2','AB-3','AB-4']
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar interdum nulla sit amet ultricies. Proin vestibulum quam id molestie vulputate. Ut varius scelerisque tempus. Phasellus quis interdum mauris. Maecenas eget malesuada urna, vel tempus ex. Cras in leo eget velit sodales semper. Cras ut ornare ante, quis efficitur tellus. Phasellus eget egestas augue. Nulla et nisl ac quam feugiat scelerisque. Phasellus faucibus pulvinar dolor, ut ullamcorper elit pulvinar et. Aliquam eu mattis dolor, at dapibus enim. Proin pharetra porttitor ex, sit amet venenatis nisl egestas quis. 
+An der Erziehungswissenschaftlichen Fakultät der Universität Leipzig fokussieren wir in Forschung, Lehre und Transfer auf Pädagogisches Handeln in komplexen Handlungsfeldern vom Kindergarten über die Schule bis hin zur Universität. Ziel unseres Handelns mit Bezug auf die Forschung ist es, national und international sichtbar zur Weiterentwicklung der wissenschaftlichen Wissensbestände in den Bezugsdisziplinen beizutragen. Dabei streben wir als Erziehungswissenschaftliche Fakultät an, sowohl eigenständig, als auch als verlässliches Verbundmitglied in der Forschungslandschaft wahrgenommen zu werden und zu agieren. Ein besonderes Anliegen ist uns dabei, diese neuen Erkenntnisse in pädagogische Handlungsfelder in der Gesellschaft zu überführen. Der stete Einbezug der aktuellsten wissenschaftlichen Befunde und Diskurse sowie die Ermöglichung der Partizipation an Forschung für Studierende und die Gesellschaft stellen Leitmaxime der Forschung in Rückbezug auf unsere Lehre dar.

@@ -15,4 +15,4 @@
     {% assign avatar_file_name = include.profile.avatar %}
 {% endif %}
 
-<img alt="{{ include.profile.name }}" src="{{site.baseurl}}/assets/images/avatars/{{ avatar_file_name }}" class="rounded-circle">
+<img alt="{{ include.profile.name }}" src="{{site.baseurl}}/assets/images/avatars/{{ avatar_file_name }}" class="{% if include.profile.rounded != false %}rounded-circle{% endif %}">

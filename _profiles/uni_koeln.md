@@ -4,6 +4,8 @@ name: Universität zu Köln
 position: Humanwissenschaftliche Fakultät
 avatar: uzk.svg
 supporter: true
+rounded: false
+sort_order: 2
 website: https://www.hf.uni-koeln.de/
 workareas: ['AB-1','AB-2','AB-3','AB-4']
 ---

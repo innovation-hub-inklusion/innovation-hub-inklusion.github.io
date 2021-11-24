@@ -10,7 +10,7 @@ permalink: "/profiles.html"
     <p class="mb-3 lead">Das Sekretariat organisiert das Tagesgeschäft und engagiert sich für eine kontinuierliche Weiterentwicklung unserer Aktivitäten.</p>
 
     <div class="gap-y listprofiles">
-        {% assign sorted_profiles = site.profiles | sort: 'sort_order' %}
+        {% assign sorted_profiles = site.profiles | sort: 'sort_order', 'last' %}
         {% assign normal_profiles = '' | split: '' %}
         {% assign supporter_profiles = '' | split: '' %}
 

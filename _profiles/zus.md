@@ -4,6 +4,8 @@ name: Zukunftsstrategie Lehrer*innenbildung (ZuS)
 position: Universität zu Köln
 avatar: zus.png
 supporter: true
+rounded: false
+sort_order: 3
 website: https://zus.uni-koeln.de/
 workareas: ['AB-1','AB-2','AB-3','AB-4']
 ---
