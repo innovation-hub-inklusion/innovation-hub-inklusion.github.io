@@ -5,6 +5,7 @@ project_id: AG-METHODIK
 workareas: [ AB-1 ]
 author: alex
 active: true
+intern: true
 image: /assets/images/projects/methodik.jpg
 ---
 Die Arbeitsgruppe *Methodik* beschäftigt sich mit der Entwicklung einer Innovationsmethodik für den Innovation Hub Inklusion. Dies bedeutet insbesondere die Ausarbeitung eines *Innovation Kit*, das dabei helfen soll, systematisch innovative Inklusionsprojekte durchführen zu können. 

@@ -5,6 +5,7 @@ project_id: AG-INFRASTRUKTUR
 workareas: [ AB-1 ]
 author: alex
 active: true
+intern: true
 image: /assets/images/projects/infrastruktur.jpg
 ---
 Die Arbeitsgruppe *Infrastruktur* beschäftigt sich mit der Entwicklung der technologischen Infrastruktur für den Innovation Hub Inklusion. Dies bedeutet insbesondere die Ausarbeitung eines Konzeptes für die Weiterentwicklung der bestehenden Infrasktruktur (z.B., diese Webseite oder Zulip). 

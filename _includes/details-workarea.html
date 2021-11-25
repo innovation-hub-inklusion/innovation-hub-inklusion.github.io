@@ -40,11 +40,26 @@
 {% if include.list_projects %}
     {% include find-projects-by-workarea.html workarea=include.workarea %}
 
-    {% include list-cards-collapse.html 
-        title="Befreundete Projekte" 
-        collapse_id_prefix=include.workarea.workarea_id 
-        collapse_id="projects-active"
-        count=true  
-        list_items=workarea_projects_active %}
+    {% if workarea_projects_intern != empty %}
+
+        {% include list-cards-collapse.html 
+            title="Interne Arbeitsgruppen" 
+            collapse_id_prefix=include.workarea.workarea_id 
+            collapse_id="projects"
+            count=true  
+            list_items=workarea_projects_intern %}
+
+    {% endif %}
+
+    {% if workarea_projects != empty %}
+
+        {% include list-cards-collapse.html 
+            title="Befreundete Projekte" 
+            collapse_id_prefix=include.workarea.workarea_id 
+            collapse_id="projects"
+            count=true  
+            list_items=workarea_projects %}
+
+    {% endif %}
         
 {% endif %}

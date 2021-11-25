@@ -1,12 +1,12 @@
-{% assign workarea_projects_inactive = '' | split: '' %}
-{% assign workarea_projects_active = '' | split: '' %}
+{% assign workarea_projects = '' | split: '' %}
+{% assign workarea_projects_intern = '' | split: '' %}
 
-{% for project in site.projects %}
+{% for project in site.projects | where: "active", true %}
     {% if project.workareas contains include.workarea.workarea_id %}
-        {% if project.active == true %}
-            {% assign workarea_projects_active = workarea_projects_active | push: project %}
+        {% if project.intern == true %}
+            {% assign workarea_projects_intern = workarea_projects_intern | push: project %}
         {% else %} 
-            {% assign workarea_projects_inactive = workarea_projects_inactive | push: project %}
+            {% assign workarea_projects = workarea_projects | push: project %}
         {% endif %}
     {% endif %}
 {% endfor %}

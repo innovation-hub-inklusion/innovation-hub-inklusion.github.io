@@ -5,6 +5,7 @@ project_id: AG-THEMATIK
 workareas: [ AB-1 ]
 author: daria
 active: true
+intern: true
 image: /assets/images/projects/thematik.jpg
 ---
 Die Arbeitsgruppe *Thematik* beschäftigt sich mit der Entwicklung des Themenspektrums für den Innovation Hub Inklusion. Dies bedeutet insbesondere die Ausarbeitung von Themen die eine besondere Priorität für die Mitarbeitenden im Innovation Hub haben. 
