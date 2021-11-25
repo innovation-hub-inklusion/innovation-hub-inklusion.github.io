@@ -11,18 +11,14 @@
                 {{ include.project.title }}         
             </a>
         </h4>
-        {% if include.workareas %}
-            <small class="d-inline-block mt-1 font-weight-normal">
-                Arbeitsbereiche: {% include list-workareas.html workareas=include.project.workareas %}
-            </small>
-        {% endif %}
-        <div class="excerpt">{{ include.project.excerpt | strip_html }}</div>
-        {% if include.project.website %}
-            <div class="icon-block mt-3 d-flex justify-content-between">  
-                <div>
-                    <a target="_blank" href="{{ include.project.website }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-                </div>
-            </div>
-        {% endif %}
+        <small class="d-inline-block mt-1 font-weight-normal">{{ include.project.subtitle }}</small>
+        
+        <div class="text-right mt-2">
+            {% if include.project.website %}
+                <a class="btn btn-outline-primary btn-sm mr-2" target="_blank" href="{{ include.project.website }}">Externe Projektseite</a>
+            {% endif %}
+            <a class="btn btn-primary btn-sm" href="{{site.baseurl}}{{include.project.url}}">Mehr Informationen</a>
+        </div>
+        
     </div>
 </div>

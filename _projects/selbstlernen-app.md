@@ -3,7 +3,6 @@ title: Selbstlernen.app
 subtitle: Ein Plattform zur Förderung von selbstreguliertem Lernen
 project_id: P-SELBSTLERNEN
 workareas: [ AB-2, AB-3, AB-4 ]
-image: /assets/images/projects/selbstreguliertes_lernen.jpg
 active: true
 ---
 Die schnelllebige und sich durch den technologisch und gesellschaftlich bedingten Wandel verändernde Umwelt, stellt besonders junge Menschen vor die große Herausforderung, eigenverantwortlich und selbstständig zu handeln. Vor allem Schüler:innen mit Lernschwierigkeiten in inklusiven Lernsituationen verlangt die sich verändernde Umwelt eine ausgeprägte Selbstregulationskompetenz ab. Diese lässt sich allerdings nur schwer eigenständig von Schüler:innen erwerben und in ihr Handeln integrieren, sofern ihnen keine weiteren, auf sie zugeschnittenen Hilfsmittel bereitgestellt werden. Hier setzt das Projekt Selbstlernen.app an, indem es eine offene Plattform für die Bereitstellung von interaktiven Hilfsmitteln zum Erwerb vom Selbstregulationskompetenzen sowie eine digital gestützte Diagnostik entwickelt.
