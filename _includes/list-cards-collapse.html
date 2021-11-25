@@ -1,11 +1,11 @@
 <h5 class="px-4 py-3 border" id="{{include.collapse_id_prefix}}-{{include.collapse_id}}-heading">
     {% if include.count %}<span class="badge badge-primary">{{include.list_items.size}}</span>{% endif %} {{include.title}}
-    <a class="btn btn-primary btn-sm float-right projects-toggle" data-toggle="collapse" href=".{{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse" role="button" aria-expanded="false" aria-controls="{{include.collapse_id_prefix}}-{{include.collapse_id}}">
+    <a class="btn btn-primary btn-sm float-right" data-toggle="collapse" href=".{{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse" role="button" aria-expanded="false" aria-controls="{{include.collapse_id_prefix}}-{{include.collapse_id}}">
         <span class="{{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse collapse show">Anzeigen</span>
         <span class="{{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse collapse">Ausblenden</span>
     </a>
 </h5>
-<div id="{{include.collapse_id_prefix}}-{{include.collapse_id}}" class="collapse {{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse" aria-labelledby="{{include.collapse_id_prefix}}-{{include.collapse_id}}-heading">
+<div id="{{include.collapse_id_prefix}}-{{include.collapse_id}}" class="list-collapse collapse {{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse" aria-labelledby="{{include.collapse_id_prefix}}-{{include.collapse_id}}-heading">
     {% if include.list_items != empty %}
         {% for list_item in include.list_items %}
             <div class="px-4 py-3 my-3 border rounded">

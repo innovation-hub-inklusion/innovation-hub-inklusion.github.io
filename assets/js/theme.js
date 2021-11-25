@@ -54,6 +54,35 @@
     
     $('.site-content').css('margin-top', $('header').outerHeight() + 'px');
 
+/**
+ * Make list-collapse use location hash. This code depends on specific naming conventions.
+ */
+$(document).ready(function () {
+    let stateObj = history.state;
+    if (stateObj && stateObj.collapse) {
+        stateObj.collapse.forEach(element => $('.'+element+'-collapse').collapse('toggle'));
+    }
+
+    $('.list-collapse').on('shown.bs.collapse', function () {
+
+        let stateObj = history.state || {collapse : []};
+
+        stateObj.collapse.push($(this).attr('id'));
+        history.replaceState(stateObj, null, null);
+    });
+
+    $('.list-collapse').on('hidden.bs.collapse', function () {
+
+        let stateObj = history.state || {collapse : []};
+
+        let index = stateObj.collapse.indexOf($(this).attr('id'));
+        if (index != -1){
+            stateObj.collapse.splice(index);
+            history.replaceState(stateObj, null, null);
+        }
+    });
+});
+    
 
 function loadSearch(){
     // Create a new Index
