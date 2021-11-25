@@ -13,7 +13,7 @@
                 {% when "projects" %}
                     {% include card-project.html project=list_item %}
                 {% when "profiles" %}
-                    {% include card-profile.html profile=list_item %}
+                    {% include card-profile.html profile=list_item collapse=true %}
                 {% when "posts" %}
                     {% include card-post.html post=list_item %}
                 {% when "workareas" %}

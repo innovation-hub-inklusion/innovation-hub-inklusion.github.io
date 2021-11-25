@@ -7,19 +7,32 @@
             {% include avatar.html profile=include.profile %}
         </div>
         <div class="col-md-10">
-            {% if include.profile.website %}
-                <a target="_blank" href="{{ include.profile.website }}"><h4 class="text-dark mb-0">{{ include.profile.name }} <i class="fa fa-link"></i></h4></a>
-            {% else %}
-                <h4 class="text-dark mb-0">{{ include.profile.name }}</h4>
-            {% endif %}
+            <h4 id="profile-card-{{include.profile.profile_id}}-label" class="mb-0">
+                {% if include.profile.website %}
+                    <a class="text-dark" target="_blank" href="{{ include.profile.website }}">{{ include.profile.name }} <i class="fa fa-link"></i></a>
+                {% else %}
+                    {{ include.profile.name }}
+                {% endif %}
+            </h4>
             <small class="d-inline-block mt-1 font-weight-normal">{{ include.profile.position }}</small>
-            <div class="excerpt">{{ include.profile.content | markdownify }}</div>
-            {% if include.profile.twitter or include.profile.website %}
+
+            {% if include.collapse == true %}
+                {% include content-collapse.html 
+                    collapse_button_text="Kurzbeschreibung"
+                    collapse_button_css="btn-sm"
+                    collapse_button_container_css="text-right"
+                    collapse_id_prefix="profile-card"
+                    collapse_id=include.profile.profile_id
+                    collapse_content=include.profile.content
+                    collapse_content_css="excerpt" %}
+            {% else %}
+                <div class="excerpt">{{ include.profile.content | markdownify }}</div>
+            {% endif %}
+
+            {% if include.profile.twitter %}
                 <div class="icon-block mt-3 d-flex justify-content-between">  
                     <div>
-                        {% if include.profile.twitter %}
-                            <a target="_blank" href="{{ include.profile.twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>
-                        {% endif %}
+                        <a target="_blank" href="{{ include.profile.twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>
                     </div>
                 </div>
             {% endif %}

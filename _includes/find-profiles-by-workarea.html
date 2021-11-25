@@ -1,7 +1,7 @@
 {% assign workarea_profiles = '' | split: '' %}
 {% assign workarea_profiles_supporter = '' | split: '' %}
 
-{% for profile in site.profiles %}
+{% for profile in site.profiles | sort: 'sort_order', 'last' %}
     {% if profile.workareas contains include.workarea.workarea_id %}
         {% if profile.supporter == true %}
             {% assign workarea_profiles_supporter = workarea_profiles_supporter | push: profile %}

@@ -1,0 +1,8 @@
+<div class="{{include.collapse_button_container_css}}">
+    <a class="btn btn-primary {{include.collapse_button_css}}" data-toggle="collapse" href=".{{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse" role="button" aria-expanded="false" aria-controls="{{include.collapse_id_prefix}}-{{include.collapse_id}}">
+        {{include.collapse_button_text}}
+    </a>
+</div>
+<div id="{{include.collapse_id_prefix}}-{{include.collapse_id}}" class="collapse {{include.collapse_id_prefix}}-{{include.collapse_id}}-collapse {{include.collapse_content_css}}" aria-labelledby="{{include.collapse_id_prefix}}-{{include.collapse_id}}-label">
+    {{include.collapse_content | markdownify}}
+</div>
