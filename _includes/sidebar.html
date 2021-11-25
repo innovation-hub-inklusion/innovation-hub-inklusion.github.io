@@ -1,4 +1,6 @@
-<div class="sticky-top sticky-top-offset mt-4">
+{% assign sorted_events = site.events | where_exp:"item", 'item.event_date_start > site.time' | sort: "event_date_start" %}
+
+<div class="sticky-top sticky-top-offset">
     {% if include.workareas %}
         <h4 class="font-weight-bold spanborder"><span>Unsere Arbeitsbereiche</span></h4>  
         <ol class="list-featured mb-5">				
@@ -12,11 +14,7 @@
                         <a href="{{site.baseurl}}{{ workarea.url }}" class="d-block text-muted small">
                             <span class="badge badge-primary">
                                 {% assign workarea_filter = "item.workareas contains '" | append: workarea.workarea_id | append: "'"%}
-                                {% assign workarea_projects = site.projects | where_exp:"item", workarea_filter %}
-                                {{workarea_projects.size}}
-                            </span> Projekt(e) 
-                            <span class="ml-4 badge badge-primary">
-                                {% assign workarea_events = site.events | where_exp:"item", workarea_filter %}
+                                {% assign workarea_events = sorted_events | where_exp:"item", workarea_filter %}
                                 {{workarea_events.size}}
                             </span> Veranstaltung(en)
                         </a>
@@ -26,7 +24,6 @@
         </ol>
     {% endif %}
     {% if include.events %}
-        {% assign sorted_events = site.events | where_exp:"item", 'item.event_date_start > site.time' | sort: "event_date_start" %}
         {% assign include_workeareas = true %}
         {% if page.collection == "workareas" %}
             {% assign workarea_filter = "item.workareas contains '" | append: page.workarea_id | append: "'"%}
