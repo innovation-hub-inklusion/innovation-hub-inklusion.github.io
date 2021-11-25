@@ -13,6 +13,7 @@ permalink: "/profiles.html"
         {% assign sorted_profiles = site.profiles | sort: 'sort_order', 'last' %}
         {% assign normal_profiles = '' | split: '' %}
         {% assign supporter_profiles = '' | split: '' %}
+        {% assign steering_group_profiles = '' | split: '' %}
 
         {% for profile in sorted_profiles %}
             {% if profile.core_team %}
@@ -21,11 +22,28 @@ permalink: "/profiles.html"
                 </div>
             {% elsif profile.supporter%} 
                 {% assign supporter_profiles = supporter_profiles | push: profile %}
+            {% elsif profile.steering_group %}  
+                {% assign steering_group_profiles = steering_group_profiles | push: profile %}  
             {% else %}  
                 {% assign normal_profiles = normal_profiles | push: profile %}  
             {% endif %}
         {% endfor %}
     </div>
+
+    {% if steering_group_profiles != empty %}
+
+        <h4 class="font-weight-bold spanborder mt-3"><span>Mitarbeitende in der Steuerungsgruppe</span></h4>
+        <p class="mb-3 lead">Die Steuerungsgruppe setzt sich aus dem Sekretariat und den folgenden Vertretenden der unterstützenden Hochschulen zusammen.</p>
+
+        <div class="gap-y listprofiles">
+            {% for profile in steering_group_profiles %}
+            <div class="border rounded my-4 p-4">
+                {% include card-profile.html profile=profile %}
+            </div>
+            {% endfor %}
+        </div>
+
+    {% endif %}
 
     {% if supporter_profiles != empty %}
 
