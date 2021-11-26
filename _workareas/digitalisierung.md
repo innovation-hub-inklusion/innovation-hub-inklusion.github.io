@@ -3,6 +3,7 @@ workarea_id: AB-4
 title: Digitalisierung und Inklusion
 sort_order: 4
 image: /assets/images/workareas/AB-4.svg
+content_css: text-justify
 ---
 Im Arbeitsbereich *Digitalisierung und Inklusion* beschäftigen wir uns mit den vielen Fragen die an dieser Schnittstelle sichtbar werden. Wie können die Möglichkeiten die Digitalisierung eröffnet für Inklusion genutzt werden? Welche Herausforderungen ergeben sich durch fortschreitende Digitalisierung im Zusammenhang mit Inklusion? Welche Impulse kann Inklusion für Digitalisierung setzen? 
 

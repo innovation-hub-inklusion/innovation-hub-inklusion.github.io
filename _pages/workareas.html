@@ -12,10 +12,9 @@ permalink: "/workareas.html"
 		<h4>
 			<a href="{{site.baseurl}}{{ workarea.url }}" class="text-dark"><span class="badge badge-primary">{{workarea.workarea_id}}</span> {{ workarea.title }}</a>
 		</h4>
-		<p class="excerpt">{{ workarea.excerpt | strip_html | strip_newlines }}</p>
+		<p class="excerpt text-justify">{{ workarea.excerpt | strip_html | strip_newlines }}</p>
 		<p>
 			<a href="{{site.baseurl}}{{ workarea.url }}" class="btn btn-outline-primary" role="button">Weiterlesen</a>
-			<a href="{{site.baseurl}}/participate.html" class="btn btn-primary" role="button">Jetzt Mitmachen!</a>
 		</p>
 	</div>
 {% endfor %}   
