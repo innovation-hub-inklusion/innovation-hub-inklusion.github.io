@@ -79,6 +79,19 @@ body {
 	margin-top: 20px;
 	min-height:400px;
 }
+.text-justify {
+	/* From: http://vlst.nl/x/e2 */
+	-ms-word-break: break-all;
+	word-break: break-all;
+
+  	/* Non standard for webkit */
+	word-break: break-word;
+
+  	-webkit-hyphens: auto; /* Saf 5.1+ */
+	-moz-hyphens: auto; /* Fx 6.0+ */
+	-ms-hyphens: auto; /* IE 10+ */
+	hyphens: auto; /* None yet */
+}
 img {
 	max-width:100%;
 }
