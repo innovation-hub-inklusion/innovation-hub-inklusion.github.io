@@ -3,7 +3,7 @@ workarea_id: AB-1
 title: Entwicklung des Innovation-Netzwerk
 sort_order: 1
 image: /assets/images/workareas/AB-1.svg
-content_css: text-justify
+content_css: "text-justify"
 ---
 Der Arbeitsbereich *Innovation-Netzwerk* beschäftigt sich mit der Reflektion und Weiterentwicklung unserer eigenen Aktivitäten. Ziel ist es für den Innovation Hub und das dazugehörige Netzwerk an Menschen und Organisationen, eine inklusive und wissenschaftsorientierte Organisationskultur zu entwickeln, die uns dabei unterstützt die gesellschaftlichen Bedarfe des 21. Jahrhunderts verantwortungsvoll zu addressieren. 
 

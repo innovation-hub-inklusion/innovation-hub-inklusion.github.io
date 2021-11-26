@@ -3,7 +3,7 @@ workarea_id: AB-3
 title: Professionalisierung für Inklusion
 sort_order: 3
 image: /assets/images/workareas/AB-3.svg
-content_css: text-justify
+content_css: "text-justify"
 ---
 Der Arbeitsbereich *Professionalisierung für Inklusion* beschäftigt sich mit inklusionsorientierter Aus- und Weiterbildung von Fachpersonal und Führungskräften. Eine besondere Rolle spielt hier natürlich die Aus- und Weiterbildung von Lehrkräften in der ersten, zweiten und dritten Phase der Lehrer:innenbildung, aber auch Mitarbeitende und Projekte die ein weiteres Verständnis von Professionalisierung für Inklusion haben, sind in diesem Arbeitsbereich herzlich willkommen.
 

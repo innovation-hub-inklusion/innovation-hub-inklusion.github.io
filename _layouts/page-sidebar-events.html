@@ -10,7 +10,7 @@ layout: default
             <h4 class="font-weight-bold spanborder">
                 <span>{% if page.collection == "workareas" %}<div class="badge badge-primary">{{page.workarea_id}}</div> {% endif %}{{page.title}}</span>
             </h4>
-            <div class="page-content">
+            <div class="page-content {{page.content_css}}">
                 {{ content }}
             </div>
 
