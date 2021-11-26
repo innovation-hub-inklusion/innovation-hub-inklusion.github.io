@@ -56,7 +56,7 @@ Das folgende Bild illustriert, wie diese Herausforderungen aus der Sicht der Tei
   <figcaption>Empfehlungen für die Weiterentwicklung.</figcaption>
 </figure>
 
-Im Hinblick auf die thematische Ausrichtung des Innovation-Netzwerks konnten basierend auf den Interessen der Teilnehmenden vier große Arbeitsbereich definiert werden. Neben dem bereits präsentierten Arbeitsbereich zur Entwicklung des Innovation-Netzwerk, einen Arbeitsbereich zu inklusiver Bildung über die Lebensspanne mit einem Fokus auf die Gestaltung von Übergängen, einen Arbeitsbereich zur Professionalisierung von Inklusion, und einen Arbeitsbereich zur Digitalisierung im Kontext von Inklusion. Durch die limitierte Zeit konnten bisher erst vier konkrete Arbeitsgruppen gebildet werden, aber die Gründung weiterer Arbeitsgruppen wird im Laufe der Zeit angestrebt.
+Im Hinblick auf die thematische Ausrichtung des Innovation-Netzwerks konnten basierend auf den Interessen der Teilnehmenden vier große Arbeitsbereich definiert werden. Neben dem bereits präsentierten Arbeitsbereich zur Entwicklung des Innovation-Netzwerk, einen Arbeitsbereich zu Inklusion über die Lebensspanne mit einem Fokus auf die Gestaltung von Übergängen, einen Arbeitsbereich zur Professionalisierung von Inklusion, und einen Arbeitsbereich zur Digitalisierung im Kontext von Inklusion. Durch die limitierte Zeit konnten bisher erst vier konkrete Arbeitsgruppen gebildet werden, aber die Gründung weiterer Arbeitsgruppen wird im Laufe der Zeit angestrebt.
 
 <figure>
   <img src="/assets/images/posts/arbeitsbereiche.svg" alt="Arbeitsbereiche"/>
@@ -65,7 +65,7 @@ Im Hinblick auf die thematische Ausrichtung des Innovation-Netzwerks konnten bas
 
 # Die Nächsten Schritte im Innovation-Netzwerk
 
-Ganz konkret sollen bis Ende 2021:
+Ganz konkret sollen bis Ende WS 2021/22:
 * Eine Satzung für den zu gründenden Verein,
 * eine Infrastrukturplanung,
 * eine inklusiven Forschungsagenda, und
