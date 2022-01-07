@@ -8,6 +8,7 @@ event_date_end: 2021-11-09 18:00:00
 event_location: "[Zoom-Link](https://uni-leipzig.zoom.us/j/67169020155?pwd=N1pqaGNUY3F0bkxqblBiL3dGMDRyUT09)"
 workareas: [ AB-1, AB-2 ]
 projects: [ AG-GOVERNANCE, AG-METHODIK ]
+published: false
 ---
 
 In dieser Veranstaltung stellt uns Dr.' Susan Hanisch mit Prosocial einen wissenschaftlich fundierten Ansatz zur Verbesserung von Kooperation vor, der insbesondere auch im Bildungssektor und im Rahmen von Inklusionsprojekten Anwendung finden kann. 
