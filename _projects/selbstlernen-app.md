@@ -5,9 +5,17 @@ project_id: P-SELBSTLERNEN
 workareas: [ AB-2, AB-3, AB-4 ]
 active: true
 ---
-Die schnelllebige und sich durch den technologisch und gesellschaftlich bedingten Wandel verändernde Umwelt, stellt besonders junge Menschen vor die große Herausforderung, eigenverantwortlich und selbstständig zu handeln. Vor allem Schüler:innen mit Lernschwierigkeiten in inklusiven Lernsituationen verlangt die sich verändernde Umwelt eine ausgeprägte Selbstregulationskompetenz ab. Diese lässt sich allerdings nur schwer eigenständig von Schüler:innen erwerben und in ihr Handeln integrieren, sofern ihnen keine weiteren, auf sie zugeschnittenen Hilfsmittel bereitgestellt werden. Hier setzt das Projekt Selbstlernen.app an, indem es eine offene Plattform für die Bereitstellung von interaktiven Hilfsmitteln zum Erwerb vom Selbstregulationskompetenzen sowie eine digital gestützte Diagnostik entwickelt.
+# Wie hilft dieses Projekt Inklusion erfolgreich umzusetzen?
 
-Aktuell wurde im Projekt Selbstlernen.app bereits eine prototypische Plattform implementiert, welche eine solide Grundlage für die Durchführung erster Forschungs- und Bildungsprojekte liefert. Ziel ist es, im Zuge eines iterativen und gestaltungsorientierten Forschungs- und Entwicklungsprozesses die Selbstlernen.app Plattform im Laufe der Zeit zu einem integralem Bestandteil einer inklusionsorientierten und digital unterstützten Bildungslandschaft weiterzuentwicklen.
+Die schnelllebige und sich durch den technologisch und gesellschaftlich bedingten Wandel verändernde Umwelt, stellt besonders junge Menschen vor die große Herausforderung, eigenverantwortlich und selbstständig zu handeln. Vor diesem Hintergrund kommt einer ausgeprägten Selbstregulationskompetenz eine bedeutende Rolle zu, nicht nur, aber insbesondere auch für Schüler:innen mit Lernschwierigkeiten. Um den Erwerb von Selbstregulationskompetenzen zu unterstützen, verfolgt das Projekt Selbstlernen.app das Ziel, eine offene Plattform für die Bereitstellung von interaktiven Hilfsmitteln zum Erwerb vom Selbstregulationskompetenzen sowie eine digital gestützte Diagnostik zu entwickeln. Das Projekt legt also einen weiten Inklusionsbegriff zu Grunde und möchte die gesellschaftliche und technologische Entwicklung zu einer inklusionsorientierten, resilienten und nachhaltigen Bildungslandschaft unterstützen.
 
-Wenn Sie weitere Fragen zum Projekt Selbstlernen.app haben oder an einer Kooperation interessiert sind, wenden Sie sich gerne an Alexander Herwix, bzw. direkt an den Innovation Hub Inklusion.
+Aktuell steht das Projekt Selbstlernen.app noch am Anfang, es wurde aber bereits eine prototypische Plattform implementiert, welche die Grundlage für die Durchführung erster Forschungs- und Bildungsprojekte liefern soll. Ziel ist es, im Zuge eines iterativen und partizipativen gestaltungsorientierten Forschungs- und Entwicklungsprozesses das Selbstlernen.app Projekt im Laufe der Zeit zu einer verlässlichen Plattform weiterzuentwicklen.
+
+# Wie stellt dieses Projekt einen Praxisbezug her, bzw. ermöglicht die Partizipation von Anspruchsgruppen?
+
+Bisher ist in die iterative Projektentwicklung auf Grund von beschränkten Ressourcen vor allem Feedback von angehenden sonderpädagogischen Lehrkräften, Bildungsforschenden und dem Projektteam eingeflossen. Eine direkte Einbindung von Schüler:innen steht noch aus, wird aber im Rahmen von Forschungs- und Bildungsprojekten angestrebt.
+
+# Wie stellt dieses Projekt einen Wissenschaftsbezug her, bzw. ermöglicht die Partizipation von Forschenden?
+
+Zum einen wird die Projektenticklung wissenschaftlich begleitet und zum anderen ist es geplant, ausgewählte Nutzungsdaten der Plattform datenschutzkonform und pseudonymisiert Bildungsforschenden zur Verfügung zu stellen.
  
