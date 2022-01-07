@@ -11,8 +11,9 @@ layout: default
             <div class="page-content mb-5 {{page.content_css}}">
                 {{ content }}
             </div>
-
-            {% include newsletter.html %}
+            {% if page.newsletter %} 
+                {% include newsletter.html %}
+            {% endif %}
         </div>
         <div class="col-md-4">
             {% include sidebar.html workareas=true events=true limit=2%}

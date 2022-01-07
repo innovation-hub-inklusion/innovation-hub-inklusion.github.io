@@ -5,7 +5,7 @@ description: 'Der Innovation Hub INKLUSION schafft Räume für inklusive Innovat
 logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-email: 'alexander.herwix@uni-leipzig.de'
+email: 'info@inklusion.network'
 newsletter_url: 'test'
 
 jumbotron: 
@@ -71,6 +71,7 @@ defaults:
       path: "_pages"
     values:
       layout: page
+      newsletter: false
       
 # Syntax
 markdown: kramdown
