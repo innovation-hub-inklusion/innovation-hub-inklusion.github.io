@@ -1,4 +1,4 @@
-{% assign sorted_events = site.events | where_exp:"item", 'item.event_date_start > site.time' | sort: "event_date_start" %}
+{% assign sorted_events = site.events | where_exp:"item", 'item.event_date_end > site.time' | sort: "event_date_start" %}
 
 <div class="sticky-top sticky-top-offset">
     {% if include.workareas %}
