@@ -27,7 +27,14 @@ layout: default
 			</article>
 			
 			{% if page.collection == "projects" %} 
-				<a class="btn btn-primary btn-lg font-weight-bold d-block mb-4" href="{{site.baseurl}}/participate.html" role="button">Jetzt mitmachen!</a>
+			<div class="d-flex">
+				{% assign button_css = "" %}
+				{% if page.website %} 
+					{% assign button_css = "ml-2" %}
+					<a class="btn btn-outline-primary btn-lg font-weight-bold flex-fill mb-4 mr-2" href="{{page.website}}" role="button" target="_blank">Zur externen Projektseite</a>
+				{% endif %} 
+				<a class="btn btn-primary btn-lg font-weight-bold flex-fill mb-4 {{button_css}}" href="{{site.baseurl}}/participate.html" role="button">Im Innovation Hub Inklusion mitmachen</a>
+			</div>
 			{% endif %} 
 
 			<!-- Tags -->
