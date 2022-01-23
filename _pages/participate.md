@@ -22,7 +22,7 @@ Um ganz allgemein über die Aktiväten des Innovation Hub Inklusion informiert z
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Interessenformular</h5>
                 <p class="text-justify">Egal ob Sie einen Ort mit Inklusionsbedarfen, eine Organisation die Inklusion fördern möchte repräsentieren oder aber privat am Thema Inklusion interessiert sind: Füllen Sie ganz unverbindlich unser Interessenformular aus, damit wir Sie anhand Ihrer Ziele, Interessen, Fähigkeiten und Bedürfnissen im Innovation-Netzwerk einbinden können.</p>
-                <a href="https://umfrage.uni-leipzig.de/index.php/544872?lang=de" class="btn btn-outline-dark w-50">Interessenformular ausfüllen</a>
+                <a href="https://umfrage.uni-leipzig.de/index.php/544872?lang=de" target="_blank" class="btn btn-outline-dark w-50">Interessenformular ausfüllen</a>
             </div>
         </li>
         <li class="media my-4">
@@ -30,7 +30,7 @@ Um ganz allgemein über die Aktiväten des Innovation Hub Inklusion informiert z
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Vernetzungsplattform</h5>
                 <p class="text-justify">Registrieren Sie sich auf unserer <a href="#zulip">asynchronen Vernetzungsplattform</a>, um direkt mit unseren diversen Kooperationspartner:innen in Kontakt zu treten und in unseren Arbeitsgruppen mitzuwirken.</p>
-                <a href="https://inklusion.zulipchat.com/" class="btn btn-outline-dark w-50">Vernetzungsplattform besuchen</a>
+                <a href="https://inklusion.zulipchat.com/" target="_blank" class="btn btn-outline-dark w-50">Vernetzungsplattform besuchen</a>
             </div>
         </li>
         <li class="media mt-4">
