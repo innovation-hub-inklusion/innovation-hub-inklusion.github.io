@@ -33,19 +33,19 @@ Um ganz allgemein über die Aktiväten des Innovation Hub Inklusion informiert z
                 <a href="https://inklusion.zulipchat.com/" target="_blank" class="btn btn-outline-dark w-50">Vernetzungsplattform besuchen</a>
             </div>
         </li>
-        <li class="media mt-4">
-            <i class="fa fa-2x fa-angle-double-right mr-4"></i>
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">Veranstaltungen</h5>
-                <p class="text-justify">Wir organisieren regelmäßig (online und offline) Veranstaltungen, die sich mit der Umsetzung von Inklusion beschäftigen. Aktuell anstehende Veranstaltungen finden Sie in der Spalte "Nächste Veranstaltungen".</p>
-            </div>
-        </li>
         <li class="media my-4">
             <i class="fa fa-2x fa-angle-double-right mr-4"></i>
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Kontaktanfrage</h5>
                 <p class="text-justify">Falls Sie noch eine Frage haben, die nicht über die anderen Kontaktmöglichkeiten geklärt werden kann, können Sie uns auch gerne per Email kontaktieren.</p>
                 <a href="mailto:{{site.email}}" class="btn btn-outline-dark w-50">Email senden</a>
+            </div>
+        </li>
+        <li class="media mt-4">
+            <i class="fa fa-2x fa-angle-double-right mr-4"></i>
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">Veranstaltungen</h5>
+                <p class="text-justify">Wir organisieren regelmäßig (online und offline) Veranstaltungen, die sich mit der Umsetzung von Inklusion beschäftigen. Aktuell anstehende Veranstaltungen finden Sie in der Spalte "Nächste Veranstaltungen".</p>
             </div>
         </li>
     </ul>
