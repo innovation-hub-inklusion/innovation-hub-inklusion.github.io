@@ -6,7 +6,7 @@ logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 email: 'info@inklusion.network'
-newsletter_url: 'test'
+newsletter_url: 'https://app.mailjet.com/widget/iframe/7wEK/LUm'
 
 jumbotron: 
   image: 'home.svg'
