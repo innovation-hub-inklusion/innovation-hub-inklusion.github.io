@@ -11,14 +11,14 @@ Am Mittwoch, den 21.07.21, und Donnerstag, den 22.07.21, sind in zwei Kick-Off V
 Die Idee des Innovation Hub Inklusion geht auf ein Forschungsprojekt der Universität zu Köln zurück und hat daher schon seit Beginn einen starken Fokus auf die Weiterentwicklung des universitären Selbstverständnisses im Hinblick auf Inklusion als gesamtgesellschaftliche Aufgabe von besonderer Dringlichkeit und Brisanz. Ziel ist es, eine umfassende Plattform zu entwickeln, die dabei unterstützen kann, das gesamte Spektrum der universitären Kernaufträge (Forschung, Lehre, Transfer) thematisch fokussiert zu bündeln, zu systematisieren und zu koordinieren. Mit anderen Worten, es sollen inklusive Räume geschaffen werden, um involvierte Anspruchsgruppen zusammen zu bringen, Herausforderungen zu identifizieren und innovative Lösungen zu entwickeln. 
 
 <figure>
-  <img src="/assets/images/posts/konzept.svg" alt="Konzept"/>
+  <img src="/assets/images/pages/konzept.svg" alt="Konzept"/>
   <figcaption>Eine Übersicht über das Selbstverständnis des Innovation Hub Inklusion.</figcaption>
 </figure>
 
 Auf einer etwas konkreteren funktionalen Ebene soll der Transfer zwischen Forschung und Praxis, die Entwicklung von Bildungsprojekten und eine gemeinsame Problembearbeitung, jeweils auf lokaler, regionaler, aber auch nationaler Ebene angeregt werden. Diese Funktionen sind natürlich nur ein erster Startpunkt und sollen in Zusammenarbeit mit den relevanten Anspruchsgruppen weiterentwickelt werden.
 
 <figure>
-  <img src="/assets/images/posts/aufgaben.svg" alt="Aufgaben"/>
+  <img src="/assets/images/pages/aufgaben.svg" alt="Aufgaben"/>
   <figcaption>Eine Übersicht über die funktionale Aufgaben des Innovation Hub Inklusion.</figcaption>
 </figure>
 

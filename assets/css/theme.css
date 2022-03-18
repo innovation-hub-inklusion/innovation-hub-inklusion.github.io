@@ -8,7 +8,7 @@
 	background-origin:content-box;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/kernauftraege.svg);
+	background-image:url(../images/pages/kernauftraege.svg);
 }
 
 .our-offers-figure {
@@ -17,7 +17,7 @@
 	background-origin:content-box;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/angebote.svg);
+	background-image:url(../images/pages/angebote.svg);
 }
 
 .our-organization-figure {
@@ -26,7 +26,7 @@
 	background-origin:content-box;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/organisation.svg);
+	background-image:url(../images/pages/organisation.svg);
 }
 
 .card-post-image {
@@ -365,7 +365,7 @@ a.text-dark:hover {
 	background-origin:content-box;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/home.svg);
+	background-image:url(../images/pages/home.svg);
 }
 .jumbotron {
 	background-size:cover;
