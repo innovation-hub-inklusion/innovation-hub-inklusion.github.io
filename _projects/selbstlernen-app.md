@@ -2,7 +2,7 @@
 title: Selbstlernen.app
 subtitle: Ein Plattform zur Förderung von selbstreguliertem Lernen
 project_id: P-SELBSTLERNEN
-workareas: [ AB-2, AB-3, AB-4 ]
+workareas: [ AB-2, AB-4 ]
 active: true
 ---
 #### Wie hilft dieses Projekt Inklusion erfolgreich umzusetzen?
