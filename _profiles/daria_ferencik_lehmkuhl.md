@@ -1,7 +1,7 @@
 ---
 profile_id: daria
 name: Daria Ferencik-Lehmkuhl
-position: Thematische Entwicklung des Innovation Hub INKLUSION
+position: Kernteam des Innovation Hub INKLUSION
 core_team: true
 sort_order: 3
 workareas: ['AB-1','AB-2','AB-3']
