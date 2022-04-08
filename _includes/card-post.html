@@ -12,15 +12,12 @@
 		{% if include.post.events %}
 			{% include list-details-event.html events=include.post.events subtitle=true item_class="event-flat-style"%}
 		{% endif %}
-		<small class="d-block text-muted">
-			Erstellt am {{ include.post.date | date: '%d.%m.%Y' }}. 
-			{% if include.post.workareas %}
-				Arbeitsbereiche: {% include list-workareas.html workareas=include.post.workareas %}
-			{% endif %}
-			{% if include.post.projects %}
-				Projekte: {% include list-projects.html projects=include.post.projects %}
-			{% endif %}
-		</small>
+
+		{% include list-details-event.html events=include.post.events subtitle=true item_class="event-flat-style"%}
+		
+		{% if include.post.short_post != true %}
+			<a class="btn btn-outline-primary " href="{{site.baseurl}}{{include.post.url}}">Weiterlesen</a>
+		{% endif %}
 	</div>
 {% if include.post.image %}
 	<div class="col-xl-5 pr-0 text-right order-first order-xl-last">
