@@ -12,7 +12,7 @@ active: true
 Ziel des Projekts ist es, ein Instrument zur Verfügung zu stellen, mit dem…
 1. …Teams in Kindertageseinrichtungen ihr Verständnis von Inklusion reflektieren und im Diskurs weiterentwickeln können.
 2. …Fortbildner:innen und Organisationsberater:innen KiTa-Teams bei der Entwicklung eines inklusiven Leitbilds unterstützen können.
-3. …Forschende analysieren
+3. …Forschende analysieren können, wie sich das subjektive Verständnis von Inklusion auf die Umsetzung vor Ort (oder auf Einstellungen, Selbstwirksamkeit etc.) auswirkt.
 
 Bei der Umsetzung innovativer Ansätze für Inklusion in Bildungseinrichtungen werden gemeinsam geteilte Ideen und Visionen als ein wichtiger Motor für gelingende Entwicklungen gesehen. Dazu gehört auch das Inklusionsverständnis der beteiligten Akteure. Aber…
 * …wie lässt sich feststellen, wie ähnlich oder unähnlich die Vorstellungen innerhalb des Teams sind?

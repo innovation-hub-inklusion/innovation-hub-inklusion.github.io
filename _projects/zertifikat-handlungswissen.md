@@ -10,7 +10,7 @@ website: https://zus.uni-koeln.de/lehre-und-studium/fortbildungs-und-beratungsan
 ---
 #### Wie hilft dieses Projekt Inklusion erfolgreich umzusetzen?
 
-Durch das Inkrafttreten der neuen Lehramtszugangsverordnung (LZV) in Nordrhein-Westfalen im Jahr 2016, die eine Konkretisierung des Lehrerausbildungsgesetztes (LABG, 12. Mai 2009) darstellt, wurde als ein Ziel der Lehrer:innenausbildung „die Befähigung zu einem professionellen Umgang mit Vielfalt insbesondere mit Blick auf ein inklusives Schulsystem“ (LABG §2, Absatz 2, Satz 2) festgelegt. In allen Fächern sollen nun inklusionsorientierte Fragestellungen im Umfang von mindestens 5 Leistungspunkten behandelt werden. 
+Durch das Inkrafttreten der neuen Lehramtszugangsverordnung (LZV) in Nordrhein-Westfalen im Jahr 2016, die eine Konkretisierung des Lehrerausbildungsgesetzes (LABG, 12. Mai 2009) darstellt, wurde als ein Ziel der Lehrer:innenausbildung „die Befähigung zu einem professionellen Umgang mit Vielfalt insbesondere mit Blick auf ein inklusives Schulsystem“ (LABG §2, Absatz 2, Satz 2) festgelegt. In allen Fächern sollen nun inklusionsorientierte Fragestellungen im Umfang von mindestens 5 Leistungspunkten behandelt werden. 
 
 Da Studierende an der Universität zu Köln darüber hinaus einen hohen Bedarf an zusätzlichen inklusionsorientierten Angeboten geäußert haben, startete aus dem Netzwerk Inklusion der Universität zu Köln heraus ab dem Sommersemester 2021 eine Zertifikatsreihe, in deren Rahmen ausgewählte Teilnehmende die Gelegenheit erhalten, ihr Lehramtsstudium noch inklusionsorientierter auszurichten, um sich besser auf die anstehenden Herausforderungen in einer inklusiven Schule und Gesellschaft vorzubereiten.
 
