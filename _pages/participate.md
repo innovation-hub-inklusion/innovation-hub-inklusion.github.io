@@ -1,7 +1,7 @@
 ---
 title: Mitmachen
 layout: page-sidebar
-permalink: "/participate.html"
+permalink: "/mitmachen.html"
 content_css: "text-justify"
 ---
 

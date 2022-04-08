@@ -1,8 +1,8 @@
 - name: <i class="fa fa-info-circle" aria-hidden="true"></i> Über&nbsp;Uns
-  link: /about.html
+  link: /ueber-uns.html
 - name: <i class="fa fa-users" aria-hidden="true"></i> Mitwirkende
-  link: /profiles.html
+  link: /mitwirkende.html
 - name: <i class="fa fa-toolbox" aria-hidden="true"></i> Arbeitsbereiche
-  link: /workareas.html
+  link: /arbeitsbereiche.html
 - name: <i class="fa fa-hand-holding-heart" aria-hidden="true"></i> Mitmachen
-  link: /participate.html
+  link: /mitmachen.html

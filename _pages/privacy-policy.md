@@ -34,4 +34,4 @@ Wir behalten uns das Recht vor, unsere Datenschutzerklärung jederzeit zu aktual
 
 ##### Kontaktinformationen
 
-Wenn Sie Fragen oder Bedenken bezüglich der Datenschutzerklärung haben, wenden Sie sich bitte [hier]({{site.baseurl}}/contact.html) an uns.
+Wenn Sie Fragen oder Bedenken bezüglich der Datenschutzerklärung haben, wenden Sie sich bitte [hier]({{site.baseurl}}/mitmachen.html) an uns.

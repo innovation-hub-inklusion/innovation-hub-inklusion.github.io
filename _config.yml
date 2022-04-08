@@ -33,10 +33,10 @@ collections:
   profiles:
   projects:
     output: true
-    permalink: /:collection/:title
+    permalink: /projekte/:title
   workareas:
     output: true
-    permalink: /:collection/:title
+    permalink: /arbeitsbereiche/:title
 
  
 # Defaults

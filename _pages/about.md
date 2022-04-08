@@ -1,7 +1,7 @@
 ---
 title: "Über Uns"
 layout: page-sidebar
-permalink: "/about.html"
+permalink: "/ueber-uns.html"
 content_css: "text-justify"
 newsletter: true
 ---
@@ -62,7 +62,7 @@ Organisatorisch orientiert sich die Planung und Zusammenarbeit im Innovation Hub
 
 Aktuell sind, neben selbstverwalteten Arbeitsbereichen und -gruppen, drei Gremien zur generellen Steuerung des Innovation Hub Inklusion angedacht: das *Sekretariat*, eine *Mitgliederversammlung*, die das erweiterte Netzwerk um den Innovation Hub repräsentiert, und eine *Steuerungsgruppe*, die die Integration der verschiedenen relevanten Perspektiven (Sekretariat, Geldgeber, Mitgliederversammlung) anstrebt. Das durch den Prosocial-Ansatz artikulierte Mehr-Ebenen-Verständnis von Kooperation liefert hier ein besonders gut passendes Rahmenwerk, mit dem eine gute Balance zwischen verlässlichen Rahmenbedingungen und einer flexiblen Arbeitsweise erzielt werden soll.
 
-Wenn dieser grobe Überblick Ihr Intresse geweckt hat oder Sie noch unbeantwortete Fragen haben, würden wir uns freuen von Ihnen zu hören! Auf der Seite [Mitmachen](/participate.html) finden Sie eine Übersicht an Wegen, wie Sie mit uns in Kontakt treten können.
+Wenn dieser grobe Überblick Ihr Intresse geweckt hat oder Sie noch unbeantwortete Fragen haben, würden wir uns freuen von Ihnen zu hören! Auf der Seite [Mitmachen](/mitmachen.html) finden Sie eine Übersicht an Wegen, wie Sie mit uns in Kontakt treten können.
 
 ---
 

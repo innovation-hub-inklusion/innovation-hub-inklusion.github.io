@@ -1,23 +1,22 @@
 ---
 title: "Impressum"
-permalink: "/imprint.html"
+permalink: "/impressum.html"
 ---
 
 **Angaben gemäß § 5 TMG**
 
-Conny Melzer  
-Musterweg  
-12345 Musterstadt  
+Conny Melzer   
+Marschnerstraße 29d/e, Haus 5, Raum 175   
+04109 Leipzig   
   
-Telefon: 01234-789456  
-E-Mail: max@muster.de  
+Telefon: +49 341 97-31535   
+E-Mail: conny.melzer - at - uni-leipzig.de   
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
 
-Conny Melzer  
-Musterweg  
-12345 Musterstadt  
-
+Conny Melzer   
+Marschnerstraße 29d/e, Haus 5, Raum 175   
+04109 Leipzig   
 
 <h5 class="font-weight-bold spanborder"><span>Haftungsausschluss</span></h5>
 
