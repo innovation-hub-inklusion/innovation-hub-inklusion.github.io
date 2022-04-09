@@ -7,7 +7,7 @@ permalink: "/privacy-policy.html"
 
 ##### Sammlung von Routineinformationen
 
-Diese Website erfasst grundlegende Informationen über ihre Besucher. Zu diesen Informationen gehören unter anderem IP-Adressen, Browserdetails, Zeitstempel und verweisende Seiten. Keine dieser Informationen kann einen bestimmten Besucher dieser Website persönlich identifizieren. Die Informationen werden für routinemäßige Verwaltungs- und Wartungszwecke verfolgt.
+Diese Website wird von GitHub Inc. gehostet. Für die Erbringung dieser Dienstleistung benötigt GitHub Inc. grundlegende Informationen über die Besucher. Zu diesen Informationen gehören unter anderem IP-Adressen, Browserdetails, Zeitstempel und verweisende Seiten. Näheres entnehmen Sie den Datenschutzrichtlinien von GitHub Inc. unter: [https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 ##### Cookies
 
@@ -31,7 +31,7 @@ Wir nutzen [Mailjet](https://www.mailjet.de/privacy-policy/) für den Versand vo
 
 **Widerrufsmöglichkeit**: Sie haben die Möglichkeit, Ihre Einwilligung zur Datenverarbeitung mit Wirkung für die Zukunft jederzeit zu widerrufen. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.
 
-**Weitere Datenschutzhinweise**: Näheres entnehmen Sie den Datensicherheitshinweisen der Mailgun Gruppe unter: [https://www.mailjet.de/privacy-policy/](https://www.mailjet.de/privacy-policy/).
+**Weitere Datenschutzhinweise**: Näheres entnehmen Sie den Datenschutzrichtlinien der Mailgun Gruppe unter: [https://www.mailjet.de/privacy-policy/](https://www.mailjet.de/privacy-policy/).
 
 ##### Werbung und andere Drittparteien
 
