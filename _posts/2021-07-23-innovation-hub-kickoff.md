@@ -65,13 +65,12 @@ Im Hinblick auf die thematische Ausrichtung des Innovation-Netzwerks konnten bas
 
 # Die Nächsten Schritte im Innovation-Netzwerk
 
-Ganz konkret sollen bis Ende WS 2021/22:
-* Eine Satzung für den zu gründenden Verein,
+Ganz konkret sollen:
+* Eine Organisationsstruktur,
 * eine Infrastrukturplanung,
 * eine inklusiven Forschungsagenda, und
-* eine ersten Version einer generellen Forschungsmethodik für inklusive Innovationsprojekte (Innovation-Kit) ausgearbeitet und entwickelt werden.
-
-Anfang 2022 ist dann die offizielle Gründung des Vereins mit konstituierender Mitgliederversammlung angedacht.
+* eine ersten Version einer generellen Forschungsmethodik für inklusive Innovationsprojekte (Innovation-Kit) 
+ausgearbeitet und entwickelt werden.
 
 Wir hoffen, dass diese grundsätzliche Planung auf Ihre Zustimmung trifft und freuen uns auf eine gemeinsame Zusammenarbeit. Damit dies effektiv gelingen kann, sind wir stets auf der Suche nach ehrlichem, konstruktiven Feedback. Wenn Sie also Anmerkungen positiver, aber natürlich auch negativer Natur haben, scheuen Sie sich nicht, sich an uns zu wenden. 
 
