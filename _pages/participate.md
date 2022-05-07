@@ -38,7 +38,7 @@ Um ganz allgemein über die Aktivitäten des Innovation Hub Inklusion informiert
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Kontaktanfrage</h5>
                 <p class="text-justify">Falls Sie noch eine Frage haben, die nicht über die anderen Kontaktmöglichkeiten geklärt werden kann, können Sie uns auch gerne direkt per E-Mail kontaktieren.</p>
-                <a href="mailto:{{site.email}}" class="btn btn-outline-dark w-50">Email senden</a>
+                <a href="javascript:sendEmail('sekretariat','inklusion.network')" class="btn btn-outline-dark w-50">Email senden</a>
             </div>
         </li>
         <li class="media mt-4">

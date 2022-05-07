@@ -10,7 +10,7 @@ Marschnerstraße 29d/e, Haus 5, Raum 175
 04109 Leipzig   
   
 Telefon: +49 341 97-31535   
-E-Mail: conny.melzer - at - uni-leipzig.de   
+E-Mail: [conny.melzer - at - uni-leipzig.de](javascript:sendEmail('conny.melzer','uni-leipzig.de'))   
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
 

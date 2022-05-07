@@ -82,7 +82,6 @@ $(document).ready(function () {
         }
     });
 });
-    
 
 function loadSearch(){
     // Create a new Index
@@ -132,7 +131,9 @@ function loadSearch(){
     })
 }
 
-
+function sendEmail(name, domain){
+    window.location.href = "mailto:"+name+"@"+domain;
+}
 
 // // Smooth on external page
 // $(function() {
