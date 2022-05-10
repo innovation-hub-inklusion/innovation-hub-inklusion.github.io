@@ -9,6 +9,10 @@ permalink: "/privacy-policy.html"
 
 Diese Website wird von GitHub Inc. gehostet. Für die Erbringung dieser Dienstleistung benötigt GitHub Inc. grundlegende Informationen über die Besucher. Zu diesen Informationen gehören unter anderem IP-Adressen, Browserdetails, Zeitstempel und verweisende Seiten. Näheres entnehmen Sie den Datenschutzrichtlinien von GitHub Inc. unter: [https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
+##### Sammlung von Besucherstatistiken
+
+Wir greifen auf das datenschutzfreundliche [Cloudflare Analytics](https://www.cloudflare.com/web-analytics/) zurück, um Besucherstatistiken für diese Webseite zu erfassen und so den Erfolg unserer Angebote zu messen sowie diese gegebenenfalls für Sie weiterzuentwickeln. Hierfür werden weder Cookies eingesetzt noch personenbezogenen Daten wie IP-Addressen gesammelt. Die Datenschutzrichtlinien von Cloudflare finden sie hier: [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/).
+
 ##### Cookies
 
 Soweit erforderlich, verwendet diese Website Cookies, um Informationen über die Präferenzen und den Verlauf eines Besuchers zu speichern, damit wir dem Besucher einen besseren Service bieten und/oder ihm maßgeschneiderte Inhalte präsentieren können.

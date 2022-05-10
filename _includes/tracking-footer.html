@@ -1,1 +1,7 @@
 <!-- All this area goes before </body> closing tag --> 
+
+<!-- Cloudflare Web Analytics -->
+{% if jekyll.environment == "production" %}
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1ef5636f7ce84203b3b5f3b1843eeb79"}'></script>
+{% endif %}
+<!-- End Cloudflare Web Analytics -->
