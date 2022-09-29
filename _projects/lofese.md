@@ -5,6 +5,7 @@ project_id: P-LOFESE
 workareas: [ AB-3 ]
 author: Anett Platte, Tim Leibnitz und Conny Melzer
 active: true
+website: https://www.researchgate.net/project/Entwicklung-von-Organisationsformen-des-schulischen-Lernens-von-Schuelerinnen-und-Schuelern-mit-sonderpaedagogischem-Foerderbedarf-im-Foerderschwerpunkt-emotionale-und-soziale-Entwicklung-im-Landkreis
 ---
 #### Wie hilft dieses Projekt Inklusion erfolgreich umzusetzen?
 
@@ -22,7 +23,7 @@ In einer Steuerungsgruppe tauschen sich Expert:innen aus verschiedenen Kontexten
 
 Im Projekt wird mit dem Design-Based Research Ansatz gearbeitet, welcher die enge Abstimmung zwischen in der Praxis Tätigen und Forschenden zum Ziel hat. Die Ergebnisse aus den Befragungen werden mit vorliegenden nationalen und internationalen Daten aus der bisherigen Forschung verglichen.
 
-Die wissenschaftliche Begleitung erfolgt durch die Universität Leipzig. Dabei erfolgt eine Kooperation der Förderschwerpunkte emotionale und soziale Entwicklung und dem Förderschwerpunkt Lernen. Weitere Beteiligte bei der Entwicklung der Erhebungsinstrumente sind die Kolleg:innen der Universität zu Köln und der PH Ludwigsburg.
+Die wissenschaftliche Begleitung erfolgt durch die Universität Leipzig. Dabei erfolgt eine Kooperation des Förderschwerpunkts emotionale und soziale Entwicklung und des Förderschwerpunkts Lernen. Weitere Beteiligte bei der Entwicklung der Erhebungsinstrumente sind die Kolleg:innen der Universität zu Köln und der PH Ludwigsburg.
 
 Dieses Projekt wird vom sächsischen Ministerium für Kultus finanziert.
 
