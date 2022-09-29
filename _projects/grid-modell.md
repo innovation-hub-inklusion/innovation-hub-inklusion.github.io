@@ -3,7 +3,7 @@ title: Das GRID-Modell
 subtitle: Gesamtübergreifende Richtungsweisende Individuelle Diagnostik
 project_id: P-GRID
 workareas: [ AB-2, AB-3 ]
-author: Dr. Edeltraud Hammes-Schmitz
+author: hammes-schmitz
 active: true
 ---
 #### Wie hilft dieses Projekt Inklusion erfolgreich umzusetzen?
