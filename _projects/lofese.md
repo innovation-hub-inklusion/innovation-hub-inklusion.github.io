@@ -3,7 +3,7 @@ title: L-Of-esE
 subtitle: Organisationsformen des schulischen Lernens von Schülern mit sonderpädagogischem Förderbedarf im Förderschwerpunkt emotionale und soziale Entwicklung im Landkreis Leipzig
 project_id: P-LOFESE
 workareas: [ AB-3 ]
-author: Anett Platte und Tim Leibnitz
+author: Anett Platte, Tim Leibnitz und Conny Melzer
 active: true
 ---
 #### Wie hilft dieses Projekt Inklusion erfolgreich umzusetzen?
