@@ -5,24 +5,25 @@
             {% if page.subtitle %}
                 <p class="display-5 article-subheadline">{{ page.subtitle }}</p>
             {% endif %}
-            {% if profile or page.collection == 'events' or page.events%}
-                <div class="row">
-                    {% if page.collection == 'events' or page.events %}
-                        <div class="my-2 col-md-7 col-lg-6 col-xl-5">
-                            {% if page.events %}
-                                {% include list-details-event.html events=page.events item_class="bg-lightgreen"%}
-                            {% else %}
-                                {% include details-event.html event=page %}
-                            {% endif %}
-                        </div>
-                    {% endif %}
+            <div class="row">
+                {% if page.collection == 'events' or page.events %}
+                    <div class="my-2 col-md-7 col-lg-6 col-xl-5">
+                        {% if page.events %}
+                            {% include list-details-event.html events=page.events item_class="bg-lightgreen"%}
+                        {% else %}
+                            {% include details-event.html event=page %}
+                        {% endif %}
+                    </div>
+                {% endif %}
+    
+                <div class="my-2 col-md-5">
                     {% if profile %}
-                        <div class="my-2 col-md-5">
-                            <div class="avatar-sm">{% include avatar.html profile=profile %}</div> {{ profile.name }}
-                        </div>
+                        <div class="avatar-sm">{% include avatar.html profile=profile %}</div> {{ profile.name }}
+                    {% else %}
+                        {{ page.author }}
                     {% endif %}
                 </div>
-            {% endif %}
+            </div>
             {% if page.date %}
                 <small class="text-muted">
                       Erstellt am {{ page.date | date: '%d.%m.%Y' }}.
