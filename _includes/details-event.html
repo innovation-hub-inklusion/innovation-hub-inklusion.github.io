@@ -12,8 +12,3 @@
 <div class="text-muted event-location">
     Ort: <span class="badge badge-primary text-white">{{include.event.event_location | markdownify }}</span>
 </div>
-{% if include.workareas and include.event.workareas %}
-    <div class="text-muted mt-2 small">
-        Arbeitsbereiche: {% include list-workareas.html workareas=include.event.workareas %}
-    </div>
-{% endif %}
