@@ -15,7 +15,7 @@
 		
 		{% if include.post.short_post != true %}
 			<a class="btn btn-outline-primary " href="
-			{% if include.post.link_url != empty %}
+			{% if include.post.link_url and include.post.link_url != nil and include.post.link_url != '' %}
 				{{include.post.link_url}}
 			{% else %}
 				{{site.baseurl}}{{include.post.url}}
