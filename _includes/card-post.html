@@ -1,7 +1,11 @@
 <div class="card-post row">
 	<div class="{% if include.post.image %}col-xl-7{% else %}col-lg-11{% endif %}">
 		<h2 class="mb-1 h4 font-weight-bold">
-			<a class="text-dark" href="{% if include.post.link_url and include.post.link_url != nil and include.post.link_url != '' %}{{include.post.link_url}}{% else %}{{site.baseurl}}{{include.post.url}}{% endif %}">{{ include.post.title }}</a>
+			{% if include.post.short_post != true %}
+				<a class="text-dark" href="{% if include.post.link_url and include.post.link_url != nil and include.post.link_url != '' %}{{include.post.link_url}}{% else %}{{site.baseurl}}{{include.post.url}}{% endif %}">{{ include.post.title }}</a>
+			{% else %}
+				{{ include.post.title }}
+			{% endif %}
 		</h2>
 		{% if include.post.subtitle %}
 		<p class="subtitle">{{ include.post.subtitle }}</p>
