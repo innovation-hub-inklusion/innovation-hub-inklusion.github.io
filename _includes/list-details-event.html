@@ -1,8 +1,9 @@
 <div class="list-group mb-2">
-    {% for event in site.events %}
-        {% if include.events contains event.event_id %}
+    {% for event_id in include.events %}
+        {% assign filtered_events = site.events | where: 'event_id', event_id %}
+        {% if filtered_events != empty %}
             <div class="list-group-item {{include.item_class}}">
-                {% include details-event.html event=event title=true subtitle=include.subtitle %}
+                {% include details-event.html event=filtered_events.first title=true subtitle=include.subtitle %}
             </div>
         {% endif %}
     {% endfor %}
