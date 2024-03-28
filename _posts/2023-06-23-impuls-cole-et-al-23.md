@@ -1,7 +1,6 @@
 ---
 title: "Impuls: Kritische Würdigung von Cole et al. 2023"
 author: "david"
-workareas: [ AB-2, AB-3 ]
 ---
 
 Erzielen Schüler*innen mit Bedarf an sonderpädagogischer Unterstützung in inklusiven oder in separierten Settings bessere (akademische) Lernerfolge? Die Fülle an Forschungsarbeiten dazu ist groß und eine breite Zahl an Metaaalysen zeigt deutlich (Hattie, 2023; Krämer et al., 2021): Die Lernerfolge im inklusiven Setting sind durch weg höher, auch bei Kontrolle der individuellen Lernausgangslage. So finden sich beispielsweise bei ​Hattie​ ​(2023, S. 183)​ insgesamt 11 Metaanalysen zum Thema „Mainstreaming“ (in etwa: „Gemeinsamer Unterricht“) mit 445 Einzelstudien. Die gewichtete mittlere Effektstärke liegt bei ES = 0,52 (Standardfehler: 0,07), was für Effekte auf schulorganisatorischer Ebene schon relativ stark ist. Trotzdem lohnt es sich immer wieder, auch einzelne Studien näher zu betrachten.

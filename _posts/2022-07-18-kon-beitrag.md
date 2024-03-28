@@ -2,7 +2,6 @@
 title: "Neue Veröffentlichung im k:ON - Kölner Online Journal für Lehrer*innenbildung"
 subtitle: "Inklusion und Innovation. Potentiale eines Innovation Hub Inklusion für regionale und interdisziplinäre Problemlösungen zur Umsetzung von Inklusion" 
 author: alex
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 ---
 
 Unser Beitrag „Inklusion und Innovation. Potentiale eines Innovation Hub Inklusion für regionale und interdisziplinäre Problemlösungen zur Umsetzung von Inklusion“ wurde in der aktuellen Ausgabe des [k:ON - Kölner Online Journal für Lehrer*innenbildung](https://journals.ub.uni-koeln.de/index.php/k_ON/issue/view/194){:target="_blank"} veröffentlicht. Die Veröffentlichung ist im Open-Access [direkt zugänglich](https://journals.ub.uni-koeln.de/index.php/k_ON/article/view/1338){:target="_blank"} und behandelt die konzeptionelle Planung des Innovation Hub Inklusion. Wir hoffen, dass der Beitrag einen guten Rahmen für die weitere Ausgestaltung des Innovation Hub Inklusion liefert und freuen uns über Rückmeldungen und Zitierungen! 

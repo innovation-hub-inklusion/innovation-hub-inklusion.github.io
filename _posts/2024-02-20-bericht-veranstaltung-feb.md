@@ -1,7 +1,6 @@
 ---
 title: Bericht über das Offene Netzwerktreffen im Februar
 author: "lea"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 
 ---
 

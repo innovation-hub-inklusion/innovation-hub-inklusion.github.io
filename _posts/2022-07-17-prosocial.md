@@ -1,7 +1,6 @@
 ---
 title: "Aus dem Werkzeugkasten: Die 8 Prosocial-Kern-Gestaltungsprinzipien" 
 author: alex
-workareas: [ AB-1, AB-2, AB-3 ]
 ---
 
 Die Prosocial-Kern-Gestaltungsprinzipien liefern einen hilfreichen Orientierungsrahmen für die Umsetzung von nachhaltigen Kooperations- und Organisationsstrukturen. In bestehenden Gruppen oder Organisationen eigenen sie sich besonders gut, um Konversationen über mögliche Verbesserungspotentiale zu starten. Die Prosocial-Kern-Gestaltungsprinzipien gründen auf der Arbeit der Nobelpreisträgerin [Elinor Ostrom](https://de.wikipedia.org/wiki/Elinor_Ostrom){:target="_blank"}, die sich mit nachhaltigen Formen der Selbst-organisation beschäftigt und dafür den Nobelpreis in den Wirtschaftswissenschaften erhalten hat. 

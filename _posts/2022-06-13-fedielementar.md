@@ -1,7 +1,6 @@
 ---
 title: Vorstellung von FEDIelementar 
 author: david
-workareas: [ AB-2 ]
 projects: [ P-FEDIELEMENTAR ]
 ---
 

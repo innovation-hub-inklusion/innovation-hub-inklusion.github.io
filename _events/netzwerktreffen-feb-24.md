@@ -6,8 +6,6 @@ event_id: 20240202-NETZWERK-DBR
 event_date_start: 2024-02-02 10:00:00
 event_date_end: 2024-02-02 11:00:00
 event_location: "[Zoom-Link](https://uni-koeln.zoom.us/j/95897035013?pwd=N0RUN0FpaGxYaldnRE5tSlo4OWN3QT09)"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
-projects: []
 published: true
 ---
 

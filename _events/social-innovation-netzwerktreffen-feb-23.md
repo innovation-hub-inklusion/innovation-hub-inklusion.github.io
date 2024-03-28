@@ -6,8 +6,6 @@ event_id: 20230210-NETZWERK-SOCIAL-INNOVATION
 event_date_start: 2023-02-10 09:00:00
 event_date_end: 2023-02-10 11:00:00
 event_location: "[Zoom-Link](https://uni-leipzig.zoom.us/j/62440678298?pwd=MmxucjBSejdlZEVacitCekVoNGMwQT09)"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
-projects: []
 published: true
 ---
 

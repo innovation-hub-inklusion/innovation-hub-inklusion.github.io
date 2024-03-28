@@ -1,7 +1,6 @@
 ---
 title: "Offenes Netzwerktreffen zum Thema &quot;Übergang Schule - Beruf&quot;"
 author: "alex"
-workareas: [ AB-2, AB-3, AB-4 ]
 events: [20230921-NETZWERK]
 short_post: true
 ---

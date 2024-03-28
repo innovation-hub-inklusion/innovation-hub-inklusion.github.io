@@ -2,7 +2,6 @@
 title:  Inklusion – Von der Skepsis zur Innovation
 subtitle: Ein offenes Netzwerktreffen, um unsere nächsten Projekte zu planen.
 author: alex
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 projects: [ AG-THEMATIK, AG-METHODIK ]
 events: [20221110-NETZWERK]
 link_url: /events/netzwerktreffen-nov-22

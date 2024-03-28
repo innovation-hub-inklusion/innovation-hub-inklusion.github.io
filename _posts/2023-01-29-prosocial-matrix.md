@@ -1,7 +1,6 @@
 ---
 title: "Aus dem Werkzeugkasten: Die Prosocial Matrix" 
 author: alex
-workareas: [ AB-1, AB-2, AB-3 ]
 ---
 
 Die “Prosocial Matrix” ist ein Instrument zur Förderung der psychischen Flexibilität. Psychische Flexibilität bezeichnet die Fähigkeit, auch bei negativen Gefühlen und Wahrnehmungen im Einklang mit den eigenen Werten zu handeln. Psychische Flexibilität basiert auf Prozessen und Fähigkeiten wie der Achtsamkeit gegenüber unseren Erfahrungen und Wahrnehmungen, der Distanzierung von unserer oft wenig hilfreichen “inneren Wortmaschine” und der regelmäßigen Reflexion von Werten und Zielen. Gerade im Kontext von Inklusion ist dies hilfreich, da Inklusion mit zum Teil herausfordernden gesellschaftlichen Veränderungsprozessen einhergeht. Die Prosocial Matrix kann hier ein praktisches Werkzeug für die Umsetzung von Inklusion in der Praxis darstellen.

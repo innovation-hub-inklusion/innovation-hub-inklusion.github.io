@@ -6,7 +6,6 @@ event_id: 20230921-NETZWERK
 event_date_start: 2023-09-21 14:00:00
 event_date_end: 2023-09-21 15:30:00
 event_location: "[Zoom-Link](https://uni-koeln.zoom.us/j/95830695966?pwd=bXdpUGloNm5YY1Jqbmh5ZU1SRkhKZz09)"
-workareas: [ AB-2, AB-3, AB-4 ]
 published: true
 ---
 

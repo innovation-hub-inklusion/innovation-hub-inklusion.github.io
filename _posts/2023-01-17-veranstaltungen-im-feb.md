@@ -2,8 +2,6 @@
 title:  Netzwerkveranstaltungen im Februar
 subtitle: Drei virtuelle Veranstaltungen für Austausch und Vernetzung
 author: alex
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
-projects: [ ]
 events: [20230203-NETZWERK-AKADEMISCH, 20230210-NETZWERK-SOCIAL-INNOVATION, 20230222-KAMPAGNE]
 short_post: true
 

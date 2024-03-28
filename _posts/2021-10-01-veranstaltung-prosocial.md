@@ -2,7 +2,6 @@
 title:  Webinar zu Prosocial (Aufzeichnung)
 subtitle: Eine Einführung in Prosocial für den Bildungssektor
 author: alex
-workareas: [ AB-1, AB-2 ]
 projects: [ AG-GOVERNANCE, AG-METHODIK ]
 excerpt_separator: <!--more-->
 short_post: true

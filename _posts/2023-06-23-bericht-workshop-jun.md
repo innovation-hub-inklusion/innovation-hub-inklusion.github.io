@@ -1,7 +1,6 @@
 ---
 title: Bericht vom Schüler:innenworkshop zur Entwicklung einer inklusiven Jobvermittlungsplattform
 author: "nina"
-workareas: [ AB-2, AB-4 ]
 ---
 
 Am 05.06.2023 fand der erste Schüler:innen-Workshop zur Entwicklung einer inklusiven Jobvermittlungsplattform statt. Die Gruppe setzte sich aus 13 Schüler:innen der Klassen 8-9 und ihren Lehrkräften aus drei verschiedenen Chemnitzer Schulen, zwei Sekretariatsmitgliedern des Innovation Hub Inklusion sowie einer studentischen Hilfskraft der Universität Leipzig zusammen. 

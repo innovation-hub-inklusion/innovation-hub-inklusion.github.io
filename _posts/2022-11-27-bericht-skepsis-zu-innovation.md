@@ -2,7 +2,6 @@
 title:  Bericht vom Netzwerktreffen
 subtitle: Inklusion – Von der Skepsis zur Innovation
 author: daria
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 projects: [ AG-THEMATIK, AG-METHODIK ]
 short_post: true
 ---

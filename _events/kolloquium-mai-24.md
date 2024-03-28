@@ -6,8 +6,6 @@ event_id: 20240523-KOLLOQUIUM-DBR
 event_date_start: 2024-05-23 16:00:00
 event_date_end: 2024-05-23 18:00:00
 event_location: "[Zoom-Link](https://uni-leipzig.zoom.us/j/66091683696?pwd=eEhBK25JZXVDL1ZTamNzMjZlZnkzZz09)"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
-projects: []
 published: true
 ---
 

@@ -2,7 +2,6 @@
 title: Antrittsvorlesung von Conny Melzer
 subtitle: "Inklusion und Innovation: Potentiale eines Innovation Hub Inklusion für Forschung, Lehre und Praxis" 
 author: conny
-workareas: [ AB-1 ]
 projects: [ AG-METHODIK ]
 ---
 

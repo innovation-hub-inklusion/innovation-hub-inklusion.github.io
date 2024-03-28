@@ -2,7 +2,6 @@
 title:  Bericht zum Vortrag an der Uni Jena
 subtitle: "Inklusionsorientierte Fragestellungen im Lehramtsstudium verankern – Die Strategie zur Implementation inklusiver Bildung an der Universität zu Köln"
 author: "conny"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 ---
 
 Am 26.01.2023 hat Conny Melzer aus dem Team des Innovation Hub Inklusion an der Universität Jena anlässlich der Vortragsreihe Lehrer*innenbildung einen digitalen Vortrag über ihrer Zeit als Leiterin des Handlungsfeld Studium Inklusiv an der Universität zu Köln (2016-2021) gehalten. Im folgenden präsentieren wir eine kurze Zusammenfassung der Veranstaltung.

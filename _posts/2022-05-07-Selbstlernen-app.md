@@ -2,7 +2,6 @@
 title: Erste empirische Studien zur Selbstlernen.app gestartet
 subtitle: "Selbstlernen.app – eine Plattform zur Förderung von selbstreguliertem Lernen" 
 author: alex
-workareas: [ AB-2, AB-4 ]
 projects: [ P-SELBSTLERNEN ]
 ---
 

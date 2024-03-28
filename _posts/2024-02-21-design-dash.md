@@ -2,7 +2,6 @@
 title: "Aus dem Werkzeugkasten: Design Dash"
 subtitle: Partizipative Gestaltungsprozesse mit Design Thinking
 author: "nina"
-workareas: [ AB-2, AB-3, AB-4 ]
 
 ---
 

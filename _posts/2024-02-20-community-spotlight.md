@@ -1,7 +1,6 @@
 ---
 title: "Community Spotlight: Frieder Schumann und Thomas Hennemann"
 author: "alex"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 
 ---
 

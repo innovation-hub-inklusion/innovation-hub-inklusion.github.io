@@ -2,7 +2,5 @@
   link: /ueber-uns.html
 - name: <i class="fa fa-users" aria-hidden="true"></i> Mitwirkende
   link: /mitwirkende.html
-- name: <i class="fa fa-toolbox" aria-hidden="true"></i> Arbeitsbereiche
-  link: /arbeitsbereiche.html
 - name: <i class="fa fa-hand-holding-heart" aria-hidden="true"></i> Mitmachen
   link: /mitmachen.html

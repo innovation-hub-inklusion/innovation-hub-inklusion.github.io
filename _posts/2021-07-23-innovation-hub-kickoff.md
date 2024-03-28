@@ -1,7 +1,6 @@
 ---
 title:  "Kick-off-Veranstaltung des Innovation Hub Inklusion"
 author: alex
-workareas: [ AB-1 ]
 projects: [ AG-GOVERNANCE ]
 ---
 Am Mittwoch, den 21.07.21, und Donnerstag, den 22.07.21, sind in zwei Kick-off-Veranstaltungen insgesamt 38 Teilnehmer:innen aus verschiedenen Anspruchsgruppen (z.B. Universität, Schule, Wirtschaft) zusammengekommen, um die Entwicklung des Innovation Hub Inklusion anzustoßen. Die Fragen und Interessen, die zur Teilnahme bewegt haben, waren vielfältig und konnten im Rahmen einer nachgehenden Analyse in vier Themenbereiche eingeordnet werden: Inklusion in der Schule, Inklusive Bildung über die Lebensspanne, Inklusion in der Gesellschaft und Zusammenarbeit im Netzwerk zu Querschnittsthemen wie Technologie, Ausbildung und Finanzierung.

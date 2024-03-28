@@ -1,7 +1,6 @@
 ---
 title: Bericht über das Offene Netzwerktreffen im März
 author: "alex"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 
 ---
 

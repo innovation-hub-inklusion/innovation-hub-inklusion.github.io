@@ -1,7 +1,6 @@
 ---
 title:  Bericht zu den Veranstaltungen im Februar
 author: "alex"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 ---
 
 In diesem Beitrag möchten wir kurz die drei gelungen Veranstaltungen im Februar Revue passieren lassen. Wir bedanken uns bei allen Beteiligten für ihre Mitwirkung und freuen uns schon jetzt auf die zukünftigen Veranstaltungen!

@@ -6,7 +6,6 @@ event_id: 20221110-NETZWERK
 event_date_start: 2022-11-10 15:30:00
 event_date_end: 2022-11-10 17:30:00
 event_location: "[Zoom-Link](https://uni-koeln.zoom.us/j/96256106440?pwd=Vlkvd2QrdXNGWFRLVW5Yay9qZCtmQT09)"
-workareas: [ AB-1, AB-2, AB-3, AB-4 ]
 projects: [ AG-THEMATIK, AG-METHODIK ]
 published: true
 ---
