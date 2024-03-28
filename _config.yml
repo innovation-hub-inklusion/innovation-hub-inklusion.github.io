@@ -34,9 +34,6 @@ collections:
   projects:
     output: true
     permalink: /projekte/:title
-  workareas:
-    output: true
-    permalink: /arbeitsbereiche/:title
 
  
 # Defaults
@@ -53,12 +50,6 @@ defaults:
       path: "_projects"
     values:
       layout: post
-
-  # all workareas
-  - scope:
-      path: "_workareas"
-    values:
-      layout: page-sidebar-events
 
   # all posts
   - scope:
