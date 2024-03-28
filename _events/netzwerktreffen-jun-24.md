@@ -1,5 +1,5 @@
 ---
-title: "Inklusion und Design-based Research"
+title: "Netzwerktreffen Inklusion und Design-based Research"
 subtitle: Ein offenes Netzwerktreffen zur Planung gemeinsamer Aktivitäten.
 author: alex
 event_id: 20240627-NETZWERK-DBR
