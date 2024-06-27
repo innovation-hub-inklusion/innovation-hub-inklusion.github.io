@@ -5,7 +5,7 @@ author: alex
 event_id: 20240627-NETZWERK-DBR
 event_date_start: 2024-06-27 14:00:00
 event_date_end: 2024-06-27 16:00:00
-event_location: "[Zoom-Link](https://uni-leipzig.zoom.us/j/67441112663?pwd=azhtdXJDYk9RSkVISlM3dzBQZG8vZz09)"
+event_location: "[Zoom-Link](https://uni-leipzig.zoom.us/j/66091683696?pwd=eEhBK25JZXVDL1ZTamNzMjZlZnkzZz09)"
 published: true
 ---
 
