@@ -1,5 +1,5 @@
 ---
-title: "DbR Kolloquium 1"
+title: "DBR Kolloquium 1"
 subtitle: Herausforderungen in der Kooperation mit Schulen
 author: alex
 event_id: 20240418-KOLLOQUIUM-DBR

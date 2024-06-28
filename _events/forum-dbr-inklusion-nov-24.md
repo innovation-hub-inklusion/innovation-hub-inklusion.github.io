@@ -1,5 +1,5 @@
 ---
-title: "Forum DbR und Inklusion"
+title: "Forum DBR und Inklusion"
 subtitle: Save-the-Date
 author: alex
 event_id: 20241129-FORUM-DBR

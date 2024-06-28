@@ -1,5 +1,5 @@
 ---
-title: "DbR Kolloquium 2"
+title: "DBR Kolloquium 2"
 subtitle: Kolloquium zum Thema Inklusion und Design-based Research.
 author: alex
 event_id: 20240523-KOLLOQUIUM-DBR

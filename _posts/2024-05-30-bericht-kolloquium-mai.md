@@ -1,5 +1,5 @@
 ---
-title: "Bericht zum zweiten DbR Kolloquium"
+title: "Bericht zum zweiten DBR Kolloquium"
 author: "alex"
 
 ---
