@@ -9,7 +9,7 @@ Am 20. Juni 2024 präsentierten Christine Schmalenbach und Citka Ashouri beim dr
 Der Vortrag umfasste folgende Aspekte:
 
 1.	**Konzeption der SeELe-Lernleiter**  
-Christine Schmalenbach stellte die Konzeption der SeELe-Lernleiter (Sozial-emotionale Entwicklung mit Lernleitern, siehe auch: Blogpost) vor, ein Trainingsprogramm zur Förderung sozialen und emotionalen Lernens für alle Schüler:innen ab der Sekundarstufe I. Sie gab zudem Einblicke in die Materialien, die zwar bereits erprobt, aber noch nicht evaluiert wurden, weshalb die Ergänzung, Weiterentwicklung einer inklusiveren Version der SeELe-Materialien ein zentrales Ziel darstellt.
+Christine Schmalenbach stellte die Konzeption der SeELe-Lernleiter (Sozial-emotionale Entwicklung mit Lernleitern, siehe auch: [Blogpost](https://www.inklusion.network/posts/2024/03/28/seele/)) vor, ein Trainingsprogramm zur Förderung sozialen und emotionalen Lernens für alle Schüler:innen ab der Sekundarstufe I. Sie gab zudem Einblicke in die Materialien, die zwar bereits erprobt, aber noch nicht evaluiert wurden, weshalb die Ergänzung, Weiterentwicklung einer inklusiveren Version der SeELe-Materialien ein zentrales Ziel darstellt.
 2.	**Vorstellung der Teilprojekte in Schulen**  
 Die Referentinnen kooperieren mit zwei Projektschulen, in den die SeELE-Materialien in zwei Klassen implementiert werden.
 3.	**Einblicke in die projektbegleitende Dissertation**  
